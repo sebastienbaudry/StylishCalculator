@@ -1,0 +1,81 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Glow Effects -->
+    <DropShadowEffect x:Key="CyanGlowEffect" 
+                      Color="{StaticResource NeonCyan}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="15" 
+                      Opacity="0.7"/>
+    
+    <DropShadowEffect x:Key="MagentaGlowEffect" 
+                      Color="{StaticResource NeonMagenta}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="15" 
+                      Opacity="0.7"/>
+    
+    <DropShadowEffect x:Key="GreenGlowEffect" 
+                      Color="{StaticResource NeonGreen}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="15" 
+                      Opacity="0.7"/>
+    
+    <DropShadowEffect x:Key="YellowGlowEffect" 
+                      Color="{StaticResource NeonYellow}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="15" 
+                      Opacity="0.7"/>
+    
+    <!-- Subtle Glow Effects (for hover states) -->
+    <DropShadowEffect x:Key="SubtleCyanGlowEffect" 
+                      Color="{StaticResource NeonCyan}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="10" 
+                      Opacity="0.4"/>
+    
+    <DropShadowEffect x:Key="SubtleMagentaGlowEffect" 
+                      Color="{StaticResource NeonMagenta}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="10" 
+                      Opacity="0.4"/>
+    
+    <DropShadowEffect x:Key="SubtleGreenGlowEffect" 
+                      Color="{StaticResource NeonGreen}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="10" 
+                      Opacity="0.4"/>
+    
+    <DropShadowEffect x:Key="SubtleYellowGlowEffect" 
+                      Color="{StaticResource NeonYellow}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="10" 
+                      Opacity="0.4"/>
+    
+    <!-- Text Glow Effects -->
+    <DropShadowEffect x:Key="TextGlowEffect" 
+                      Color="{StaticResource TextColor}" 
+                      Direction="0" 
+                      ShadowDepth="0" 
+                      BlurRadius="3" 
+                      Opacity="0.7"/>
+    
+    <!-- Glass Effect Blur -->
+    <BlurEffect x:Key="GlassBlurEffect" Radius="5"/>
+    
+    <!-- Inner Shadow for Pressed Buttons -->
+    <DropShadowEffect x:Key="InnerShadowEffect" 
+                      Direction="315" 
+                      ShadowDepth="2" 
+                      BlurRadius="5" 
+                      Opacity="0.5" 
+                      Color="#000000"/>
+    
+</ResourceDictionary>

@@ -1,0 +1,98 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- Base Text Style -->
+    <Style x:Key="BaseTextStyle" TargetType="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource TextBrush}"/>
+        <Setter Property="FontFamily" Value="Consolas"/>
+        <Setter Property="TextWrapping" Value="NoWrap"/>
+        <Setter Property="TextTrimming" Value="CharacterEllipsis"/>
+    </Style>
+    
+    <!-- Main Display TextBlock Style -->
+    <Style x:Key="DisplayTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="36"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="TextAlignment" Value="Right"/>
+        <Setter Property="Margin" Value="10,5"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="{StaticResource NeonCyan}" 
+                                  Direction="0" 
+                                  ShadowDepth="0" 
+                                  BlurRadius="5" 
+                                  Opacity="0.5"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Secondary Display TextBlock Style (for expressions) -->
+    <Style x:Key="SecondaryDisplayTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="TextAlignment" Value="Right"/>
+        <Setter Property="Margin" Value="10,0,10,5"/>
+        <Setter Property="Opacity" Value="0.7"/>
+    </Style>
+    
+    <!-- Error Display TextBlock Style -->
+    <Style x:Key="ErrorDisplayTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource DisplayTextBlockStyle}">
+        <Setter Property="Foreground" Value="{StaticResource NeonMagentaBrush}"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="{StaticResource NeonMagenta}" 
+                                  Direction="0" 
+                                  ShadowDepth="0" 
+                                  BlurRadius="5" 
+                                  Opacity="0.5"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Currency Conversion Result TextBlock Style -->
+    <Style x:Key="CurrencyResultTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="{StaticResource NeonYellow}" 
+                                  Direction="0" 
+                                  ShadowDepth="0" 
+                                  BlurRadius="5" 
+                                  Opacity="0.5"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    <!-- Label TextBlock Style -->
+    <Style x:Key="LabelTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Margin" Value="5,2"/>
+        <Setter Property="Opacity" Value="0.9"/>
+    </Style>
+    
+    <!-- Header TextBlock Style -->
+    <Style x:Key="HeaderTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="18"/>
+        <Setter Property="FontWeight" Value="SemiBold"/>
+        <Setter Property="Margin" Value="10,5"/>
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+    </Style>
+    
+    <!-- Glass Panel TextBlock Style -->
+    <Style x:Key="GlassPanelTextBlockStyle" TargetType="TextBlock" BasedOn="{StaticResource BaseTextStyle}">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="Margin" Value="10"/>
+        <Setter Property="TextAlignment" Value="Center"/>
+        <Setter Property="Effect">
+            <Setter.Value>
+                <DropShadowEffect Color="White" 
+                                  Direction="0" 
+                                  ShadowDepth="0" 
+                                  BlurRadius="2" 
+                                  Opacity="0.3"/>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+</ResourceDictionary>

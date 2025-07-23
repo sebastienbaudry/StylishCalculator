@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Temporarily removed due to icon format issue -->
+    <!-- <ApplicationIcon>Resources\calculator.ico</ApplicationIcon> -->
+  </PropertyGroup>
+
+  <!-- Temporarily commented out due to icon format issue -->
+  <!--
+  <ItemGroup>
+    <None Remove="Resources\calculator.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\calculator.ico" />
+  </ItemGroup>
+  -->
+
+</Project>
