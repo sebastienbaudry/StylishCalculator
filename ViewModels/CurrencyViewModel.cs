@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using StylishCalculator.Models;
+using StylishCalculator.Services;
 
 namespace StylishCalculator.ViewModels
 {
@@ -11,6 +12,20 @@ namespace StylishCalculator.ViewModels
     /// </summary>
     public class CurrencyViewModel : BaseViewModel
     {
+        #region Private Fields
+        
+        /// <summary>
+        /// Configuration instance
+        /// </summary>
+        private readonly AppConfiguration _config = AppConfiguration.Instance;
+        
+        /// <summary>
+        /// Logging service instance
+        /// </summary>
+        private readonly LoggingService _logger = LoggingService.Instance;
+        
+        #endregion
+        
         #region Properties
 
         /// <summary>
@@ -35,7 +50,12 @@ namespace StylishCalculator.ViewModels
                 {
                     Converter.FromCurrency = value;
                     OnPropertyChanged();
-                    ConvertCommand.Execute(null);
+                    
+                    // Only auto-convert if real-time conversion is enabled
+                    if (_config.EnableRealTimeConversion)
+                    {
+                        ConvertCommand.Execute(null);
+                    }
                 }
             }
         }
@@ -52,7 +72,12 @@ namespace StylishCalculator.ViewModels
                 {
                     Converter.ToCurrency = value;
                     OnPropertyChanged();
-                    ConvertCommand.Execute(null);
+                    
+                    // Only auto-convert if real-time conversion is enabled
+                    if (_config.EnableRealTimeConversion)
+                    {
+                        ConvertCommand.Execute(null);
+                    }
                 }
             }
         }
@@ -69,7 +94,12 @@ namespace StylishCalculator.ViewModels
                 {
                     Converter.Amount = value;
                     OnPropertyChanged();
-                    ConvertCommand.Execute(null);
+                    
+                    // Only auto-convert if real-time conversion is enabled
+                    if (_config.EnableRealTimeConversion)
+                    {
+                        ConvertCommand.Execute(null);
+                    }
                 }
             }
         }
@@ -89,8 +119,7 @@ namespace StylishCalculator.ViewModels
         {
             get
             {
-                System.Diagnostics.Debug.WriteLine($"ConversionResult getter called - HasError: {Converter.HasError}, Amount: {Amount}, ConvertedAmount: {ConvertedAmount}");
-                Console.WriteLine($"ConversionResult getter called - HasError: {Converter.HasError}, Amount: {Amount}, ConvertedAmount: {ConvertedAmount}");
+                _logger.LogTrace($"ConversionResult getter called - HasError: {Converter.HasError}, Amount: {Amount}, ConvertedAmount: {ConvertedAmount}", "CurrencyViewModel");
                 
                 if (Converter.HasError)
                 {
@@ -102,7 +131,8 @@ namespace StylishCalculator.ViewModels
                     return "Select currencies to convert";
                 }
                 
-                return $"{Amount:F2} {FromCurrency.Code} = {ConvertedAmount:F5} {ToCurrency.Code}";
+                // Use configuration for decimal places
+                return $"{Amount:F2} {FromCurrency.Code} = {ConvertedAmount.ToString($"F{_config.DisplayDecimalPlaces}")} {ToCurrency.Code}";
             }
         }
 
@@ -155,16 +185,18 @@ namespace StylishCalculator.ViewModels
         /// </summary>
         public CurrencyViewModel()
         {
-            System.Diagnostics.Debug.WriteLine("CurrencyViewModel constructor called");
-            Console.WriteLine("CurrencyViewModel constructor called");
+            _logger.LogInfo("CurrencyViewModel constructor called", "CurrencyViewModel");
             
             // Initialize commands
             ConvertCommand = new RelayCommand(async _ => await ConvertAsync());
             SwapCurrenciesCommand = new RelayCommand(_ => SwapCurrencies());
             
-            // Trigger initial conversion
-            System.Diagnostics.Debug.WriteLine("Triggering initial conversion");
-            _ = Task.Run(async () => await ConvertAsync());
+            // Trigger initial conversion if real-time conversion is enabled
+            if (_config.EnableRealTimeConversion)
+            {
+                _logger.LogDebug("Triggering initial conversion", "CurrencyViewModel");
+                _ = Task.Run(async () => await ConvertAsync());
+            }
         }
 
         #endregion
@@ -195,15 +227,17 @@ namespace StylishCalculator.ViewModels
         {
             try
             {
-                System.Diagnostics.Debug.WriteLine("CurrencyViewModel.ConvertAsync called");
-                Console.WriteLine("CurrencyViewModel.ConvertAsync called");
+                _logger.LogDebug("CurrencyViewModel.ConvertAsync called", "CurrencyViewModel");
                 IsBusy = true;
                 await Converter.ConvertAsync();
-                System.Diagnostics.Debug.WriteLine($"Conversion completed - Result: {ConvertedAmount}");
-                Console.WriteLine($"Conversion completed - Result: {ConvertedAmount}");
+                _logger.LogInfo($"Conversion completed - Result: {ConvertedAmount}", "CurrencyViewModel");
                 OnPropertyChanged(nameof(ConvertedAmount));
                 OnPropertyChanged(nameof(ConversionResult));
                 OnPropertyChanged(nameof(LastUpdated));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Error during conversion: {ex.Message}", ex, "CurrencyViewModel");
             }
             finally
             {

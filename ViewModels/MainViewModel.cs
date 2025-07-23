@@ -292,6 +292,81 @@ namespace StylishCalculator.ViewModels
             }
         }
 
+        /// <summary>
+        /// Handles keyboard input for calculator operations
+        /// </summary>
+        /// <param name="key">The key that was pressed</param>
+        /// <param name="modifiers">Any modifier keys that were held</param>
+        /// <returns>True if the key was handled, false otherwise</returns>
+        public bool HandleKeyboardInput(string key, bool shiftPressed = false)
+        {
+            switch (key.ToLower())
+            {
+                // Digits 0-9
+                case "0":
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
+                case "6":
+                case "7":
+                case "8":
+                case "9":
+                    DigitCommand.Execute(key);
+                    return true;
+
+                // Operations
+                case "+":
+                    OperationCommand.Execute("+");
+                    return true;
+                case "-":
+                    OperationCommand.Execute("-");
+                    return true;
+                case "*":
+                    OperationCommand.Execute("*");
+                    return true;
+                case "/":
+                    OperationCommand.Execute("/");
+                    return true;
+
+                // Decimal point
+                case ".":
+                    DecimalPointCommand.Execute(null);
+                    return true;
+
+                // Equals
+                case "enter":
+                    EqualsCommand.Execute(null);
+                    return true;
+
+                // Clear
+                case "escape":
+                case "delete":
+                    ClearCommand.Execute(null);
+                    return true;
+
+                // Backspace
+                case "backspace":
+                    BackspaceCommand.Execute(null);
+                    return true;
+
+                // Toggle currency converter
+                case "space":
+                    ToggleCurrencyPanelCommand.Execute(null);
+                    return true;
+
+                default:
+                    // Handle percentage separately for Shift + 5
+                    if (key == "5" && shiftPressed)
+                    {
+                        PercentageCommand.Execute(null);
+                        return true;
+                    }
+                    return false;
+            }
+        }
+
         #endregion
     }
 }

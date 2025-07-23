@@ -43,7 +43,9 @@
                           Background="White"
                           Foreground="Black"
                           BorderBrush="{StaticResource NeonCyanBrush}"
-                          FontWeight="Bold">
+                          FontWeight="Bold"
+                          TabIndex="1"
+                          IsTabStop="True">
                     <ComboBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
@@ -64,7 +66,9 @@
                     Width="40"
                     Height="40"
                     Margin="5,20,5,0"
-                    VerticalAlignment="Bottom"/>
+                    VerticalAlignment="Bottom"
+                    TabIndex="2"
+                    IsTabStop="True"/>
             
             <!-- To Currency -->
             <Grid Grid.Column="2">
@@ -85,7 +89,9 @@
                           Background="White"
                           Foreground="Black"
                           BorderBrush="{StaticResource NeonCyanBrush}"
-                          FontWeight="Bold">
+                          FontWeight="Bold"
+                          TabIndex="3"
+                          IsTabStop="True">
                     <ComboBox.ItemTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">

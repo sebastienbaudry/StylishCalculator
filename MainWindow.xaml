@@ -15,7 +15,8 @@
         WindowStartupLocation="CenterScreen"
         AllowsTransparency="True"
         WindowStyle="None"
-        ResizeMode="CanResize">
+        ResizeMode="CanResizeWithGrip"
+        Focusable="True">
     
     <Window.Resources>
         <DropShadowEffect x:Key="WindowShadow" 
@@ -85,7 +86,20 @@
                 </Grid>
                 
                 <!-- Calculator View -->
-                <views:CalculatorView Grid.Row="1"/>
+                <views:CalculatorView x:Name="CalculatorView" Grid.Row="1"/>
+                
+                <!-- Custom Resize Grip -->
+                <Grid Grid.Row="1" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                      Width="20" Height="20" Margin="0,0,5,5">
+                    <Path Fill="{StaticResource TextBrush}"
+                          Opacity="0.5"
+                          Data="M 0,10 L 10,10 L 10,0 M 0,15 L 15,15 L 15,0 M 5,20 L 20,20 L 20,5"
+                          Stroke="{StaticResource TextBrush}"
+                          StrokeThickness="1"/>
+                    <Rectangle Fill="Transparent"
+                               Cursor="SizeNWSE"
+                               MouseLeftButtonDown="ResizeGrip_MouseLeftButtonDown"/>
+                </Grid>
             </Grid>
         </Grid>
     </Border>

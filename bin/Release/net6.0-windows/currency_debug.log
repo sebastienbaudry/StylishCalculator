@@ -1,0 +1,1551 @@
+﻿2025-07-23 22:38:06.746 INFO    [CurrencyViewModel] CurrencyViewModel constructor called
+2025-07-23 22:38:06.765 DEBUG   [CurrencyViewModel] Triggering initial conversion
+2025-07-23 22:38:06.784 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:06.837 INFO    [CurrencyViewModel] Conversion completed - Result: 0,91
+2025-07-23 22:38:07.468 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,91
+2025-07-23 22:38:14.994 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:14.996 INFO    [CurrencyViewModel] Conversion completed - Result: 2,5556104038
+2025-07-23 22:38:14.997 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 3, ConvertedAmount: 2,5556104038
+2025-07-23 22:38:24.881 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:24.883 INFO    [CurrencyViewModel] Conversion completed - Result: 3
+2025-07-23 22:38:24.883 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 3, ConvertedAmount: 3
+2025-07-23 22:38:24.884 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:24.886 INFO    [CurrencyViewModel] Conversion completed - Result: 3,5216635473
+2025-07-23 22:38:24.886 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 3, ConvertedAmount: 3,5216635473
+2025-07-23 22:38:27.568 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:27.570 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0001841964
+2025-07-23 22:38:27.570 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 3, ConvertedAmount: 0,0001841964
+2025-07-23 22:38:29.352 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:29.353 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0001569114
+2025-07-23 22:38:29.354 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 3, ConvertedAmount: 0,0001569114
+2025-07-23 22:38:35.210 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:38:35.211 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000523038
+2025-07-23 22:38:35.212 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,0000523038
+2025-07-23 22:48:14.952 INFO    [CurrencyViewModel] CurrencyViewModel constructor called
+2025-07-23 22:48:14.966 DEBUG   [CurrencyViewModel] Triggering initial conversion
+2025-07-23 22:48:14.971 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:14.982 - CurrencyConverter constructor called
+2025-07-23 22:48:14.983 - Initialized 11 currencies
+2025-07-23 22:48:14.992 - InitializeDefaultRates() called
+2025-07-23 22:48:14.996 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:48:14.996 - USD rates added to cache: 11 rates
+2025-07-23 22:48:14.998 - EUR rates added to cache: 11 rates
+2025-07-23 22:48:14.998 - GBP rates added to cache: 11 rates
+2025-07-23 22:48:14.998 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:48:15.002 - ConvertAsync called - Amount: 1
+2025-07-23 22:48:15.004 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:48:15.004 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:48:15.005 - Found rates for USD, contains 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:48:15.005 - Direct rate found: USD -> EUR = 0,91
+2025-07-23 22:48:15.005 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,91
+2025-07-23 22:48:15.005 - Exchange rate USD to EUR: 0,91
+2025-07-23 22:48:15.006 - Conversion result: 1 * 0,91 = 0,91
+2025-07-23 22:48:15.006 - FINAL CONVERSION: 1 USD = 0,91 EUR
+2025-07-23 22:48:15.006 INFO    [CurrencyViewModel] Conversion completed - Result: 0,91
+2025-07-23 22:48:15.018 - Fetching rates from API for USD
+2025-07-23 22:48:15.289 - API Response received: 215 characters
+2025-07-23 22:48:15.290 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:48:15.291 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:48:15.291 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:48:15.291 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:48:15.291 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:48:15.291 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:48:15.292 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:48:15.292 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:48:15.292 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:48:15.292 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:48:15.292 - API rate: USD -> USD = 1
+2025-07-23 22:48:15.292 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:48:15.293 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:48:15.303 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:15.305 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,91
+2025-07-23 22:48:15.406 - Fetching rates from API for EUR
+2025-07-23 22:48:15.471 - API Response received: 217 characters
+2025-07-23 22:48:15.471 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:48:15.472 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:48:15.472 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:48:15.472 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:48:15.472 - API rate: EUR -> EUR = 1
+2025-07-23 22:48:15.472 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:48:15.472 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:15.473 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:48:15.473 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:48:15.473 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:48:15.473 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:48:15.473 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.474 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.475 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:15.580 - Fetching rates from API for GBP
+2025-07-23 22:48:15.629 - API Response received: 217 characters
+2025-07-23 22:48:15.629 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:48:15.629 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:48:15.630 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:48:15.630 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:48:15.630 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:48:15.630 - API rate: GBP -> GBP = 1
+2025-07-23 22:48:15.630 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:48:15.630 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:48:15.631 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:48:15.631 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:48:15.631 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:48:15.631 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.631 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.632 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:15.740 - Fetching rates from API for JPY
+2025-07-23 22:48:15.793 - API Response received: 208 characters
+2025-07-23 22:48:15.794 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:48:15.794 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:48:15.794 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:48:15.794 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:48:15.794 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:48:15.795 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:48:15.795 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:48:15.795 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:48:15.795 - API rate: JPY -> JPY = 1
+2025-07-23 22:48:15.795 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:48:15.796 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:48:15.796 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:48:15.796 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:48:15.797 - Saved 4 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:15.915 - Fetching rates from API for CAD
+2025-07-23 22:48:15.978 - API Response received: 215 characters
+2025-07-23 22:48:15.978 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:48:15.978 - API rate: CAD -> CAD = 1
+2025-07-23 22:48:15.978 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:48:15.978 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:48:15.979 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:48:15.979 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:48:15.979 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:48:15.979 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:48:15.979 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:48:15.980 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:48:15.980 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:48:15.980 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.980 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:15.981 - Saved 5 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:16.089 - Fetching rates from API for AUD
+2025-07-23 22:48:16.137 - API Response received: 215 characters
+2025-07-23 22:48:16.137 - API rate: AUD -> AUD = 1
+2025-07-23 22:48:16.137 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:48:16.138 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:48:16.138 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:48:16.138 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:48:16.138 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:48:16.138 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:48:16.139 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:48:16.139 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:48:16.139 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:48:16.139 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:48:16.139 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:16.139 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:16.140 - Saved 6 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:21.772 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:21.772 - ConvertAsync called - Amount: 6
+2025-07-23 22:48:21.772 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:48:21.773 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:21.773 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:48:21.773 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 22:48:21.773 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 22:48:21.773 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 22:48:21.773 - Conversion result: 6 * 0,8518701346 = 5,1112208076
+2025-07-23 22:48:21.774 - FINAL CONVERSION: 6 USD = 5,1112208076 EUR
+2025-07-23 22:48:21.774 INFO    [CurrencyViewModel] Conversion completed - Result: 5,1112208076
+2025-07-23 22:48:21.774 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 6, ConvertedAmount: 5,1112208076
+2025-07-23 22:48:25.337 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:25.338 - ConvertAsync called - Amount: 6
+2025-07-23 22:48:25.338 - GetExchangeRate called: EUR -> EUR
+2025-07-23 22:48:25.338 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:25.338 - Exchange rate EUR to EUR: 1
+2025-07-23 22:48:25.339 - Conversion result: 6 * 1 = 6
+2025-07-23 22:48:25.339 - FINAL CONVERSION: 6 EUR = 6 EUR
+2025-07-23 22:48:25.339 INFO    [CurrencyViewModel] Conversion completed - Result: 6
+2025-07-23 22:48:25.339 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 6, ConvertedAmount: 6
+2025-07-23 22:48:27.416 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:27.417 - ConvertAsync called - Amount: 6
+2025-07-23 22:48:27.417 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:48:27.417 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:27.417 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:27.418 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:27.418 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 22:48:27.418 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 22:48:27.418 - Conversion result: 6 * 19119,0651205323 = 114714,3907231938
+2025-07-23 22:48:27.418 - FINAL CONVERSION: 6 EUR = 114714,3907231938 IDR
+2025-07-23 22:48:27.419 INFO    [CurrencyViewModel] Conversion completed - Result: 114714,3907231938
+2025-07-23 22:48:27.419 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 6, ConvertedAmount: 114714,3907231938
+2025-07-23 22:48:33.346 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:33.347 - ConvertAsync called - Amount: 0
+2025-07-23 22:48:33.347 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:48:33.347 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:33.347 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:33.348 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:33.348 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 22:48:33.348 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 22:48:33.348 - Conversion result: 0 * 19119,0651205323 = 0
+2025-07-23 22:48:33.349 - FINAL CONVERSION: 0 EUR = 0 IDR
+2025-07-23 22:48:33.349 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 22:48:33.349 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 22:48:37.025 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:37.026 - ConvertAsync called - Amount: 6
+2025-07-23 22:48:37.026 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:48:37.026 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:37.026 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:37.026 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:37.027 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 22:48:37.027 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 22:48:37.027 - Conversion result: 6 * 19119,0651205323 = 114714,3907231938
+2025-07-23 22:48:37.027 - FINAL CONVERSION: 6 EUR = 114714,3907231938 IDR
+2025-07-23 22:48:37.027 INFO    [CurrencyViewModel] Conversion completed - Result: 114714,3907231938
+2025-07-23 22:48:37.028 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 6, ConvertedAmount: 114714,3907231938
+2025-07-23 22:48:37.665 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:37.666 - ConvertAsync called - Amount: 60
+2025-07-23 22:48:37.666 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:48:37.666 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:37.666 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:37.666 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:37.667 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 22:48:37.667 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 22:48:37.667 - Conversion result: 60 * 19119,0651205323 = 1147143,9072319380
+2025-07-23 22:48:37.667 - FINAL CONVERSION: 60 EUR = 1147143,9072319380 IDR
+2025-07-23 22:48:37.667 INFO    [CurrencyViewModel] Conversion completed - Result: 1147143,9072319380
+2025-07-23 22:48:37.668 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 60, ConvertedAmount: 1147143,9072319380
+2025-07-23 22:48:42.882 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:42.882 - ConvertAsync called - Amount: 0
+2025-07-23 22:48:42.882 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:48:42.883 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:48:42.883 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:48:42.883 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 22:48:42.883 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 22:48:42.883 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 22:48:42.883 - Conversion result: 0 * 19119,0651205323 = 0
+2025-07-23 22:48:42.884 - FINAL CONVERSION: 0 EUR = 0 IDR
+2025-07-23 22:48:42.884 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 22:48:42.884 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 22:48:44.010 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:44.011 - ConvertAsync called - Amount: 0
+2025-07-23 22:48:44.011 - Fetching rates from API for IDR
+2025-07-23 22:48:44.013 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:44.013 - ConvertAsync called - Amount: 0
+2025-07-23 22:48:44.014 - Fetching rates from API for IDR
+2025-07-23 22:48:44.072 - API Response received: 196 characters
+2025-07-23 22:48:44.073 - API rate: IDR -> AUD = 0,0000936614
+2025-07-23 22:48:44.073 - API rate: IDR -> CAD = 0,0000835128
+2025-07-23 22:48:44.073 - API rate: IDR -> CHF = 0,0000487322
+2025-07-23 22:48:44.073 - API rate: IDR -> CNY = 0,0004403609
+2025-07-23 22:48:44.073 - API rate: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:44.073 - API rate: IDR -> GBP = 0,0000454075
+2025-07-23 22:48:44.074 - API rate: IDR -> IDR = 1
+2025-07-23 22:48:44.074 - API rate: IDR -> INR = 0,0052953518
+2025-07-23 22:48:44.074 - API rate: IDR -> JPY = 0,0090128916
+2025-07-23 22:48:44.074 - API rate: IDR -> RUB = 0,0048150333
+2025-07-23 22:48:44.074 - API rate: IDR -> USD = 0,0000613988
+2025-07-23 22:48:44.074 - API returned 11 real rates for IDR: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.075 - Final rates for IDR: 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.076 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:44.076 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:44.077 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:44.077 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.077 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:44.077 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:44.077 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:44.077 - Conversion result: 0 * 0,0000523038 = 0,0000000000
+2025-07-23 22:48:44.077 - FINAL CONVERSION: 0 IDR = 0,0000000000 EUR
+2025-07-23 22:48:44.078 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000000000
+2025-07-23 22:48:44.078 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0,0000000000
+2025-07-23 22:48:44.125 - API Response received: 196 characters
+2025-07-23 22:48:44.125 - API rate: IDR -> AUD = 0,0000936614
+2025-07-23 22:48:44.125 - API rate: IDR -> CAD = 0,0000835128
+2025-07-23 22:48:44.125 - API rate: IDR -> CHF = 0,0000487322
+2025-07-23 22:48:44.126 - API rate: IDR -> CNY = 0,0004403609
+2025-07-23 22:48:44.126 - API rate: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:44.126 - API rate: IDR -> GBP = 0,0000454075
+2025-07-23 22:48:44.126 - API rate: IDR -> IDR = 1
+2025-07-23 22:48:44.126 - API rate: IDR -> INR = 0,0052953518
+2025-07-23 22:48:44.126 - API rate: IDR -> JPY = 0,0090128916
+2025-07-23 22:48:44.127 - API rate: IDR -> RUB = 0,0048150333
+2025-07-23 22:48:44.127 - API rate: IDR -> USD = 0,0000613988
+2025-07-23 22:48:44.127 - API returned 11 real rates for IDR: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.127 - Final rates for IDR: 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.128 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 22:48:44.128 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:44.129 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:44.129 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:44.129 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:44.129 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:44.129 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:44.129 - Conversion result: 0 * 0,0000523038 = 0,0000000000
+2025-07-23 22:48:44.130 - FINAL CONVERSION: 0 IDR = 0,0000000000 EUR
+2025-07-23 22:48:44.130 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000000000
+2025-07-23 22:48:44.130 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0,0000000000
+2025-07-23 22:48:48.593 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:48.594 - ConvertAsync called - Amount: 1
+2025-07-23 22:48:48.594 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:48.594 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:48.594 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:48.594 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:48.594 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:48.594 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:48.595 - Conversion result: 1 * 0,0000523038 = 0,0000523038
+2025-07-23 22:48:48.595 - FINAL CONVERSION: 1 IDR = 0,0000523038 EUR
+2025-07-23 22:48:48.595 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000523038
+2025-07-23 22:48:48.595 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,0000523038
+2025-07-23 22:48:49.090 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:49.090 - ConvertAsync called - Amount: 10
+2025-07-23 22:48:49.090 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:49.090 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:49.091 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:49.091 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:49.091 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:49.091 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:49.091 - Conversion result: 10 * 0,0000523038 = 0,0005230380
+2025-07-23 22:48:49.092 - FINAL CONVERSION: 10 IDR = 0,0005230380 EUR
+2025-07-23 22:48:49.092 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0005230380
+2025-07-23 22:48:49.092 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 10, ConvertedAmount: 0,0005230380
+2025-07-23 22:48:49.249 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:49.249 - ConvertAsync called - Amount: 100
+2025-07-23 22:48:49.250 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:49.250 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:49.250 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:49.250 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:49.250 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:49.251 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:49.251 - Conversion result: 100 * 0,0000523038 = 0,0052303800
+2025-07-23 22:48:49.251 - FINAL CONVERSION: 100 IDR = 0,0052303800 EUR
+2025-07-23 22:48:49.251 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0052303800
+2025-07-23 22:48:49.251 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 100, ConvertedAmount: 0,0052303800
+2025-07-23 22:48:49.425 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:49.425 - ConvertAsync called - Amount: 1000
+2025-07-23 22:48:49.426 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:49.426 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:49.426 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:49.426 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:49.426 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:49.426 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:49.427 - Conversion result: 1000 * 0,0000523038 = 0,0523038000
+2025-07-23 22:48:49.427 - FINAL CONVERSION: 1000 IDR = 0,0523038000 EUR
+2025-07-23 22:48:49.427 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0523038000
+2025-07-23 22:48:49.427 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1000, ConvertedAmount: 0,0523038000
+2025-07-23 22:48:49.849 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:49.850 - ConvertAsync called - Amount: 10000
+2025-07-23 22:48:49.850 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:49.850 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:49.850 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:49.851 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:49.851 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:49.851 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:49.851 - Conversion result: 10000 * 0,0000523038 = 0,5230380000
+2025-07-23 22:48:49.851 - FINAL CONVERSION: 10000 IDR = 0,5230380000 EUR
+2025-07-23 22:48:49.851 INFO    [CurrencyViewModel] Conversion completed - Result: 0,5230380000
+2025-07-23 22:48:49.852 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 10000, ConvertedAmount: 0,5230380000
+2025-07-23 22:48:50.042 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:50.042 - ConvertAsync called - Amount: 100000
+2025-07-23 22:48:50.042 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:50.043 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:50.043 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:50.043 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:50.043 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:50.043 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:50.043 - Conversion result: 100000 * 0,0000523038 = 5,2303800000
+2025-07-23 22:48:50.043 - FINAL CONVERSION: 100000 IDR = 5,2303800000 EUR
+2025-07-23 22:48:50.044 INFO    [CurrencyViewModel] Conversion completed - Result: 5,2303800000
+2025-07-23 22:48:50.044 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 100000, ConvertedAmount: 5,2303800000
+2025-07-23 22:48:50.217 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:48:50.217 - ConvertAsync called - Amount: 1000000
+2025-07-23 22:48:50.217 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:48:50.218 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:48:50.218 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:48:50.218 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:48:50.218 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:48:50.218 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:48:50.218 - Conversion result: 1000000 * 0,0000523038 = 52,3038000000
+2025-07-23 22:48:50.219 - FINAL CONVERSION: 1000000 IDR = 52,3038000000 EUR
+2025-07-23 22:48:50.219 INFO    [CurrencyViewModel] Conversion completed - Result: 52,3038000000
+2025-07-23 22:48:50.219 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1000000, ConvertedAmount: 52,3038000000
+2025-07-23 22:50:20.889 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:50:20.890 - ConvertAsync called - Amount: 10000001
+2025-07-23 22:50:20.890 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:50:20.890 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:50:20.890 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:50:20.891 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:50:20.891 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:50:20.891 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:50:20.891 - Conversion result: 10000001 * 0,0000523038 = 523,0380523038
+2025-07-23 22:50:20.891 - FINAL CONVERSION: 10000001 IDR = 523,0380523038 EUR
+2025-07-23 22:50:20.891 INFO    [CurrencyViewModel] Conversion completed - Result: 523,0380523038
+2025-07-23 22:50:20.892 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 10000001, ConvertedAmount: 523,0380523038
+2025-07-23 22:50:21.305 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:50:21.305 - ConvertAsync called - Amount: 100000010
+2025-07-23 22:50:21.306 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:50:21.306 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:50:21.306 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:50:21.306 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:50:21.306 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:50:21.307 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:50:21.307 - Conversion result: 100000010 * 0,0000523038 = 5230,3805230380
+2025-07-23 22:50:21.307 - FINAL CONVERSION: 100000010 IDR = 5230,3805230380 EUR
+2025-07-23 22:50:21.307 INFO    [CurrencyViewModel] Conversion completed - Result: 5230,3805230380
+2025-07-23 22:50:21.307 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 100000010, ConvertedAmount: 5230,3805230380
+2025-07-23 22:50:21.481 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:50:21.482 - ConvertAsync called - Amount: 1000000100
+2025-07-23 22:50:21.482 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:50:21.482 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:50:21.482 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:50:21.482 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:50:21.482 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:50:21.483 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:50:21.483 - Conversion result: 1000000100 * 0,0000523038 = 52303,8052303800
+2025-07-23 22:50:21.483 - FINAL CONVERSION: 1000000100 IDR = 52303,8052303800 EUR
+2025-07-23 22:50:21.483 INFO    [CurrencyViewModel] Conversion completed - Result: 52303,8052303800
+2025-07-23 22:50:21.483 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1000000100, ConvertedAmount: 52303,8052303800
+2025-07-23 22:50:22.481 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 22:50:22.482 - ConvertAsync called - Amount: 0
+2025-07-23 22:50:22.482 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:50:22.482 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:50:22.482 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:50:22.482 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:50:22.483 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:50:22.483 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:50:22.483 - Conversion result: 0 * 0,0000523038 = 0,0000000000
+2025-07-23 22:50:22.483 - FINAL CONVERSION: 0 IDR = 0,0000000000 EUR
+2025-07-23 22:50:22.483 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000000000
+2025-07-23 22:50:22.484 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0,0000000000
+2025-07-23 23:01:13.500 INFO    [CurrencyViewModel] CurrencyViewModel constructor called
+2025-07-23 23:01:13.511 DEBUG   [CurrencyViewModel] Triggering initial conversion
+2025-07-23 23:01:13.516 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:01:13.523 - CurrencyConverter constructor called
+2025-07-23 23:01:13.525 - Initialized 11 currencies
+2025-07-23 23:01:13.534 - InitializeDefaultRates() called
+2025-07-23 23:01:13.538 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 23:01:13.538 - USD rates added to cache: 11 rates
+2025-07-23 23:01:13.539 - EUR rates added to cache: 11 rates
+2025-07-23 23:01:13.540 - GBP rates added to cache: 11 rates
+2025-07-23 23:01:13.540 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 23:01:13.544 - ConvertAsync called - Amount: 1
+2025-07-23 23:01:13.545 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:01:13.546 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 23:01:13.547 - Found rates for USD, contains 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 23:01:13.548 - Direct rate found: USD -> EUR = 0,91
+2025-07-23 23:01:13.548 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,91
+2025-07-23 23:01:13.549 - Exchange rate USD to EUR: 0,91
+2025-07-23 23:01:13.550 - Conversion result: 1 * 0,91 = 0,91
+2025-07-23 23:01:13.550 - FINAL CONVERSION: 1 USD = 0,91 EUR
+2025-07-23 23:01:13.551 INFO    [CurrencyViewModel] Conversion completed - Result: 0,91
+2025-07-23 23:01:13.561 - Loaded 7 base currencies from exchange_rates.json
+2025-07-23 23:01:13.561 - File rates timestamp: 2025-07-23 22:48:44
+2025-07-23 23:01:13.562 - Fetching rates from API for USD
+2025-07-23 23:01:13.825 - API Response received: 215 characters
+2025-07-23 23:01:13.826 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 23:01:13.826 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 23:01:13.826 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 23:01:13.826 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 23:01:13.826 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 23:01:13.827 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 23:01:13.827 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 23:01:13.827 - API rate: USD -> INR = 86,2451855217
+2025-07-23 23:01:13.827 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 23:01:13.827 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 23:01:13.827 - API rate: USD -> USD = 1
+2025-07-23 23:01:13.828 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:01:13.828 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:01:13.840 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:13.854 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,91
+2025-07-23 23:01:13.955 - Fetching rates from API for EUR
+2025-07-23 23:01:14.001 - API Response received: 217 characters
+2025-07-23 23:01:14.001 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 23:01:14.001 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 23:01:14.001 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 23:01:14.001 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 23:01:14.002 - API rate: EUR -> EUR = 1
+2025-07-23 23:01:14.002 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 23:01:14.002 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 23:01:14.002 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 23:01:14.002 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 23:01:14.002 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 23:01:14.003 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 23:01:14.003 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.003 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.004 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:14.113 - Fetching rates from API for GBP
+2025-07-23 23:01:14.178 - API Response received: 217 characters
+2025-07-23 23:01:14.179 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 23:01:14.179 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 23:01:14.180 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 23:01:14.180 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 23:01:14.181 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 23:01:14.182 - API rate: GBP -> GBP = 1
+2025-07-23 23:01:14.182 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 23:01:14.183 - API rate: GBP -> INR = 116,618446439
+2025-07-23 23:01:14.184 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 23:01:14.184 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 23:01:14.185 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 23:01:14.185 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.186 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.189 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:14.300 - Fetching rates from API for JPY
+2025-07-23 23:01:14.346 - API Response received: 208 characters
+2025-07-23 23:01:14.347 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 23:01:14.348 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 23:01:14.348 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 23:01:14.349 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 23:01:14.350 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 23:01:14.350 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 23:01:14.351 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 23:01:14.352 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 23:01:14.353 - API rate: JPY -> JPY = 1
+2025-07-23 23:01:14.353 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 23:01:14.354 - API rate: JPY -> USD = 0,006812332
+2025-07-23 23:01:14.355 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:01:14.355 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:01:14.359 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:14.474 - Fetching rates from API for CAD
+2025-07-23 23:01:14.527 - API Response received: 215 characters
+2025-07-23 23:01:14.528 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 23:01:14.528 - API rate: CAD -> CAD = 1
+2025-07-23 23:01:14.528 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 23:01:14.529 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 23:01:14.529 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 23:01:14.529 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 23:01:14.529 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 23:01:14.529 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 23:01:14.529 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 23:01:14.529 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 23:01:14.530 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 23:01:14.530 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.530 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.531 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:14.644 - Fetching rates from API for AUD
+2025-07-23 23:01:14.708 - API Response received: 215 characters
+2025-07-23 23:01:14.709 - API rate: AUD -> AUD = 1
+2025-07-23 23:01:14.709 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 23:01:14.709 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 23:01:14.709 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 23:01:14.709 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 23:01:14.710 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 23:01:14.710 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 23:01:14.710 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 23:01:14.710 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 23:01:14.710 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 23:01:14.711 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 23:01:14.711 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.711 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:14.712 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:01:15.564 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:01:15.564 - ConvertAsync called - Amount: 0
+2025-07-23 23:01:15.564 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:01:15.565 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:01:15.565 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:01:15.565 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 23:01:15.565 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 23:01:15.565 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 23:01:15.565 - Conversion result: 0 * 0,8518701346 = 0
+2025-07-23 23:01:15.566 - FINAL CONVERSION: 0 USD = 0 EUR
+2025-07-23 23:01:15.566 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:01:15.566 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:01:40.619 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:01:40.619 - ConvertAsync called - Amount: 1
+2025-07-23 23:01:40.619 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:01:40.620 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:01:40.620 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:01:40.620 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 23:01:40.620 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 23:01:40.620 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 23:01:40.620 - Conversion result: 1 * 0,8518701346 = 0,8518701346
+2025-07-23 23:01:40.621 - FINAL CONVERSION: 1 USD = 0,8518701346 EUR
+2025-07-23 23:01:40.621 INFO    [CurrencyViewModel] Conversion completed - Result: 0,8518701346
+2025-07-23 23:01:40.621 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,8518701346
+2025-07-23 23:01:43.083 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:01:43.083 - ConvertAsync called - Amount: 1
+2025-07-23 23:01:43.083 - GetExchangeRate called: EUR -> EUR
+2025-07-23 23:01:43.083 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:01:43.084 - Exchange rate EUR to EUR: 1
+2025-07-23 23:01:43.084 - Conversion result: 1 * 1 = 1
+2025-07-23 23:01:43.084 - FINAL CONVERSION: 1 EUR = 1 EUR
+2025-07-23 23:01:43.084 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:01:43.084 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:01:43.085 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:01:43.086 - ConvertAsync called - Amount: 1
+2025-07-23 23:01:43.086 - GetExchangeRate called: EUR -> USD
+2025-07-23 23:01:43.086 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:01:43.086 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:01:43.086 - Direct rate found: EUR -> USD = 1,1738878491
+2025-07-23 23:01:43.086 - FINAL RESULT: GetExchangeRate(EUR -> USD) returning 1,1738878491
+2025-07-23 23:01:43.087 - Exchange rate EUR to USD: 1,1738878491
+2025-07-23 23:01:43.087 - Conversion result: 1 * 1,1738878491 = 1,1738878491
+2025-07-23 23:01:43.087 - FINAL CONVERSION: 1 EUR = 1,1738878491 USD
+2025-07-23 23:01:43.087 INFO    [CurrencyViewModel] Conversion completed - Result: 1,1738878491
+2025-07-23 23:01:43.087 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,1738878491
+2025-07-23 23:51:23.243 INFO    [CurrencyViewModel] CurrencyViewModel constructor called
+2025-07-23 23:51:23.254 DEBUG   [CurrencyViewModel] Triggering initial conversion
+2025-07-23 23:51:23.259 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:51:23.266 - CurrencyConverter constructor called
+2025-07-23 23:51:23.267 - Initialized 11 currencies
+2025-07-23 23:51:23.277 - InitializeDefaultRates() called
+2025-07-23 23:51:23.280 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 23:51:23.281 - USD rates added to cache: 11 rates
+2025-07-23 23:51:23.283 - EUR rates added to cache: 11 rates
+2025-07-23 23:51:23.283 - GBP rates added to cache: 11 rates
+2025-07-23 23:51:23.284 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 23:51:23.287 - ConvertAsync called - Amount: 1
+2025-07-23 23:51:23.288 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:51:23.289 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 23:51:23.290 - Found rates for USD, contains 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 23:51:23.292 - Direct rate found: USD -> EUR = 0,91
+2025-07-23 23:51:23.293 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,91
+2025-07-23 23:51:23.293 - Exchange rate USD to EUR: 0,91
+2025-07-23 23:51:23.294 - Conversion result: 1 * 0,91 = 0,91
+2025-07-23 23:51:23.295 - FINAL CONVERSION: 1 USD = 0,91 EUR
+2025-07-23 23:51:23.297 INFO    [CurrencyViewModel] Conversion completed - Result: 0,91
+2025-07-23 23:51:23.302 - Fetching rates from API for USD
+2025-07-23 23:51:23.307 - Loaded 7 base currencies from exchange_rates.json
+2025-07-23 23:51:23.307 - File rates timestamp: 2025-07-23 23:01:14
+2025-07-23 23:51:23.563 - API Response received: 215 characters
+2025-07-23 23:51:23.564 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 23:51:23.564 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 23:51:23.564 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 23:51:23.564 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 23:51:23.564 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 23:51:23.565 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 23:51:23.565 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 23:51:23.565 - API rate: USD -> INR = 86,2451855217
+2025-07-23 23:51:23.565 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 23:51:23.565 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 23:51:23.565 - API rate: USD -> USD = 1
+2025-07-23 23:51:23.566 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:51:23.566 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:51:23.574 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:23.588 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,91
+2025-07-23 23:51:23.678 - Fetching rates from API for EUR
+2025-07-23 23:51:23.746 - API Response received: 217 characters
+2025-07-23 23:51:23.746 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 23:51:23.746 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 23:51:23.746 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 23:51:23.746 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 23:51:23.747 - API rate: EUR -> EUR = 1
+2025-07-23 23:51:23.747 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 23:51:23.747 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 23:51:23.747 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 23:51:23.747 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 23:51:23.748 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 23:51:23.748 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 23:51:23.748 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:23.748 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:23.751 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:23.868 - Fetching rates from API for GBP
+2025-07-23 23:51:23.914 - API Response received: 217 characters
+2025-07-23 23:51:23.915 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 23:51:23.916 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 23:51:23.916 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 23:51:23.917 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 23:51:23.917 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 23:51:23.918 - API rate: GBP -> GBP = 1
+2025-07-23 23:51:23.918 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 23:51:23.919 - API rate: GBP -> INR = 116,618446439
+2025-07-23 23:51:23.920 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 23:51:23.921 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 23:51:23.921 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 23:51:23.922 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:23.922 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:23.927 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:24.040 - Fetching rates from API for JPY
+2025-07-23 23:51:24.094 - API Response received: 208 characters
+2025-07-23 23:51:24.095 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 23:51:24.096 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 23:51:24.096 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 23:51:24.097 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 23:51:24.097 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 23:51:24.098 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 23:51:24.099 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 23:51:24.099 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 23:51:24.100 - API rate: JPY -> JPY = 1
+2025-07-23 23:51:24.100 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 23:51:24.101 - API rate: JPY -> USD = 0,006812332
+2025-07-23 23:51:24.102 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:51:24.102 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:51:24.106 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:24.212 - Fetching rates from API for CAD
+2025-07-23 23:51:24.254 - API Response received: 215 characters
+2025-07-23 23:51:24.255 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 23:51:24.255 - API rate: CAD -> CAD = 1
+2025-07-23 23:51:24.255 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 23:51:24.255 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 23:51:24.255 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 23:51:24.256 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 23:51:24.256 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 23:51:24.256 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 23:51:24.256 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 23:51:24.256 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 23:51:24.256 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 23:51:24.257 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:24.257 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:24.258 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:24.370 - Fetching rates from API for AUD
+2025-07-23 23:51:24.421 - API Response received: 215 characters
+2025-07-23 23:51:24.422 - API rate: AUD -> AUD = 1
+2025-07-23 23:51:24.423 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 23:51:24.423 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 23:51:24.424 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 23:51:24.425 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 23:51:24.425 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 23:51:24.426 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 23:51:24.427 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 23:51:24.427 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 23:51:24.428 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 23:51:24.428 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 23:51:24.429 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:24.429 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:51:24.432 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 23:51:42.915 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:51:42.916 - ConvertAsync called - Amount: 0
+2025-07-23 23:51:42.916 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:51:42.916 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:51:42.916 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:51:42.917 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 23:51:42.917 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 23:51:42.917 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 23:51:42.917 - Conversion result: 0 * 0,8518701346 = 0
+2025-07-23 23:51:42.917 - FINAL CONVERSION: 0 USD = 0 EUR
+2025-07-23 23:51:42.918 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:51:42.918 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:51:57.141 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:51:57.142 - ConvertAsync called - Amount: 1
+2025-07-23 23:51:57.142 - GetExchangeRate called: USD -> EUR
+2025-07-23 23:51:57.143 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:51:57.143 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:51:57.144 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 23:51:57.144 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 23:51:57.145 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 23:51:57.145 - Conversion result: 1 * 0,8518701346 = 0,8518701346
+2025-07-23 23:51:57.145 - FINAL CONVERSION: 1 USD = 0,8518701346 EUR
+2025-07-23 23:51:57.146 INFO    [CurrencyViewModel] Conversion completed - Result: 0,8518701346
+2025-07-23 23:51:57.147 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,8518701346
+2025-07-23 23:52:05.794 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:05.795 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:05.795 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:05.795 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:05.796 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:05.796 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:05.796 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:05.797 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:05.797 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:05.797 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:05.797 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:05.798 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:05.989 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:05.990 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:05.990 - GetExchangeRate called: USD -> JPY
+2025-07-23 23:52:05.990 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:05.991 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:05.991 - Direct rate found: USD -> JPY = 146,7926101804
+2025-07-23 23:52:05.992 - FINAL RESULT: GetExchangeRate(USD -> JPY) returning 146,7926101804
+2025-07-23 23:52:05.992 - Exchange rate USD to JPY: 146,7926101804
+2025-07-23 23:52:05.992 - Conversion result: 1 * 146,7926101804 = 146,7926101804
+2025-07-23 23:52:05.993 - FINAL CONVERSION: 1 USD = 146,7926101804 JPY
+2025-07-23 23:52:05.993 INFO    [CurrencyViewModel] Conversion completed - Result: 146,7926101804
+2025-07-23 23:52:05.994 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 146,7926101804
+2025-07-23 23:52:06.940 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:06.940 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:06.940 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:06.940 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:06.940 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:06.941 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:06.941 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:06.941 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:06.941 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:06.941 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:06.941 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:06.942 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:09.750 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:09.750 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:09.751 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:09.751 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:09.751 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:09.752 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:09.752 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:09.752 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:09.753 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:09.754 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:09.755 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:09.755 - GetExchangeRate called: GBP -> USD
+2025-07-23 23:52:09.755 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:09.756 - Found rates for GBP, contains 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:09.756 - Direct rate found: GBP -> USD = 1,3521734081
+2025-07-23 23:52:09.756 - FINAL RESULT: GetExchangeRate(GBP -> USD) returning 1,3521734081
+2025-07-23 23:52:09.757 - Exchange rate GBP to USD: 1,3521734081
+2025-07-23 23:52:09.757 - Conversion result: 1 * 1,3521734081 = 1,3521734081
+2025-07-23 23:52:09.758 - FINAL CONVERSION: 1 GBP = 1,3521734081 USD
+2025-07-23 23:52:09.758 INFO    [CurrencyViewModel] Conversion completed - Result: 1,3521734081
+2025-07-23 23:52:09.759 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,3521734081
+2025-07-23 23:52:10.831 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:10.831 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:10.832 - GetExchangeRate called: USD -> USD
+2025-07-23 23:52:10.832 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:10.832 - Exchange rate USD to USD: 1
+2025-07-23 23:52:10.832 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:10.832 - FINAL CONVERSION: 1 USD = 1 USD
+2025-07-23 23:52:10.833 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:10.833 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:10.834 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:10.834 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:10.835 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:10.835 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:10.835 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:10.836 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:10.836 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:10.836 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:10.836 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:10.836 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:10.837 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:10.837 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:11.404 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:11.404 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:11.405 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:11.405 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:11.405 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:11.405 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:11.405 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:11.406 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:11.407 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:11.408 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:11.408 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:11.409 - GetExchangeRate called: GBP -> USD
+2025-07-23 23:52:11.409 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:11.409 - Found rates for GBP, contains 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:11.409 - Direct rate found: GBP -> USD = 1,3521734081
+2025-07-23 23:52:11.409 - FINAL RESULT: GetExchangeRate(GBP -> USD) returning 1,3521734081
+2025-07-23 23:52:11.410 - Exchange rate GBP to USD: 1,3521734081
+2025-07-23 23:52:11.410 - Conversion result: 1 * 1,3521734081 = 1,3521734081
+2025-07-23 23:52:11.410 - FINAL CONVERSION: 1 GBP = 1,3521734081 USD
+2025-07-23 23:52:11.410 INFO    [CurrencyViewModel] Conversion completed - Result: 1,3521734081
+2025-07-23 23:52:11.411 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,3521734081
+2025-07-23 23:52:11.852 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:11.853 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:11.853 - GetExchangeRate called: USD -> USD
+2025-07-23 23:52:11.853 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:11.853 - Exchange rate USD to USD: 1
+2025-07-23 23:52:11.854 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:11.854 - FINAL CONVERSION: 1 USD = 1 USD
+2025-07-23 23:52:11.854 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:11.854 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:11.855 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:11.856 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:11.856 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:11.856 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:11.857 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:11.857 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:11.857 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:11.857 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:11.857 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:11.858 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:11.858 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:11.858 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:12.334 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:12.334 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:12.334 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:12.335 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:12.335 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:12.335 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:12.335 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:12.335 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:12.336 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:12.337 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:12.337 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:12.337 - GetExchangeRate called: GBP -> USD
+2025-07-23 23:52:12.338 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:12.338 - Found rates for GBP, contains 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:12.338 - Direct rate found: GBP -> USD = 1,3521734081
+2025-07-23 23:52:12.338 - FINAL RESULT: GetExchangeRate(GBP -> USD) returning 1,3521734081
+2025-07-23 23:52:12.338 - Exchange rate GBP to USD: 1,3521734081
+2025-07-23 23:52:12.339 - Conversion result: 1 * 1,3521734081 = 1,3521734081
+2025-07-23 23:52:12.339 - FINAL CONVERSION: 1 GBP = 1,3521734081 USD
+2025-07-23 23:52:12.339 INFO    [CurrencyViewModel] Conversion completed - Result: 1,3521734081
+2025-07-23 23:52:12.339 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,3521734081
+2025-07-23 23:52:12.964 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:12.964 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:12.964 - GetExchangeRate called: USD -> USD
+2025-07-23 23:52:12.964 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:12.965 - Exchange rate USD to USD: 1
+2025-07-23 23:52:12.965 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:12.965 - FINAL CONVERSION: 1 USD = 1 USD
+2025-07-23 23:52:12.965 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:12.966 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:12.966 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:12.967 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:12.967 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:12.967 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:12.967 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:12.967 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:12.968 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:12.968 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:12.968 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:12.968 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:12.968 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:12.968 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:20.268 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:20.269 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:20.270 - GetExchangeRate called: EUR -> GBP
+2025-07-23 23:52:20.271 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:20.271 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:20.272 - Direct rate found: EUR -> GBP = 0,8681488943
+2025-07-23 23:52:20.273 - FINAL RESULT: GetExchangeRate(EUR -> GBP) returning 0,8681488943
+2025-07-23 23:52:20.273 - Exchange rate EUR to GBP: 0,8681488943
+2025-07-23 23:52:20.274 - Conversion result: 1 * 0,8681488943 = 0,8681488943
+2025-07-23 23:52:20.275 - FINAL CONVERSION: 1 EUR = 0,8681488943 GBP
+2025-07-23 23:52:20.276 INFO    [CurrencyViewModel] Conversion completed - Result: 0,8681488943
+2025-07-23 23:52:20.277 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,8681488943
+2025-07-23 23:52:20.491 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:20.491 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:20.491 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:20.492 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:20.492 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:20.492 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:20.492 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:20.492 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:20.493 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:20.667 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:20.667 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:20.668 - GetExchangeRate called: JPY -> GBP
+2025-07-23 23:52:20.668 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:20.668 - Found rates for JPY, contains 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:52:20.669 - Direct rate found: JPY -> GBP = 0,0050380609
+2025-07-23 23:52:20.669 - FINAL RESULT: GetExchangeRate(JPY -> GBP) returning 0,0050380609
+2025-07-23 23:52:20.669 - Exchange rate JPY to GBP: 0,0050380609
+2025-07-23 23:52:20.669 - Conversion result: 1 * 0,0050380609 = 0,0050380609
+2025-07-23 23:52:20.670 - FINAL CONVERSION: 1 JPY = 0,0050380609 GBP
+2025-07-23 23:52:20.670 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0050380609
+2025-07-23 23:52:20.671 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,0050380609
+2025-07-23 23:52:21.331 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:21.332 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:21.333 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:21.333 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:21.333 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:21.334 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:21.334 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:21.335 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:21.335 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:21.523 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:21.524 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:21.524 - GetExchangeRate called: EUR -> GBP
+2025-07-23 23:52:21.525 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:21.525 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:21.526 - Direct rate found: EUR -> GBP = 0,8681488943
+2025-07-23 23:52:21.526 - FINAL RESULT: GetExchangeRate(EUR -> GBP) returning 0,8681488943
+2025-07-23 23:52:21.527 - Exchange rate EUR to GBP: 0,8681488943
+2025-07-23 23:52:21.527 - Conversion result: 1 * 0,8681488943 = 0,8681488943
+2025-07-23 23:52:21.528 - FINAL CONVERSION: 1 EUR = 0,8681488943 GBP
+2025-07-23 23:52:21.528 INFO    [CurrencyViewModel] Conversion completed - Result: 0,8681488943
+2025-07-23 23:52:21.529 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,8681488943
+2025-07-23 23:52:21.699 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:21.700 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:21.701 - GetExchangeRate called: USD -> GBP
+2025-07-23 23:52:21.701 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:21.701 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 23:52:21.702 - Direct rate found: USD -> GBP = 0,7395501154
+2025-07-23 23:52:21.702 - FINAL RESULT: GetExchangeRate(USD -> GBP) returning 0,7395501154
+2025-07-23 23:52:21.702 - Exchange rate USD to GBP: 0,7395501154
+2025-07-23 23:52:21.703 - Conversion result: 1 * 0,7395501154 = 0,7395501154
+2025-07-23 23:52:21.703 - FINAL CONVERSION: 1 USD = 0,7395501154 GBP
+2025-07-23 23:52:21.704 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7395501154
+2025-07-23 23:52:21.704 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7395501154
+2025-07-23 23:52:22.651 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:22.652 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:22.652 - GetExchangeRate called: EUR -> GBP
+2025-07-23 23:52:22.652 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:22.653 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:22.653 - Direct rate found: EUR -> GBP = 0,8681488943
+2025-07-23 23:52:22.653 - FINAL RESULT: GetExchangeRate(EUR -> GBP) returning 0,8681488943
+2025-07-23 23:52:22.654 - Exchange rate EUR to GBP: 0,8681488943
+2025-07-23 23:52:22.654 - Conversion result: 1 * 0,8681488943 = 0,8681488943
+2025-07-23 23:52:22.654 - FINAL CONVERSION: 1 EUR = 0,8681488943 GBP
+2025-07-23 23:52:22.655 INFO    [CurrencyViewModel] Conversion completed - Result: 0,8681488943
+2025-07-23 23:52:22.655 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,8681488943
+2025-07-23 23:52:22.845 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:22.846 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:22.847 - GetExchangeRate called: GBP -> GBP
+2025-07-23 23:52:22.848 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:22.848 - Exchange rate GBP to GBP: 1
+2025-07-23 23:52:22.849 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:22.850 - FINAL CONVERSION: 1 GBP = 1 GBP
+2025-07-23 23:52:22.851 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:22.852 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:23.046 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:23.047 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:23.048 - GetExchangeRate called: JPY -> GBP
+2025-07-23 23:52:23.049 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:23.049 - Found rates for JPY, contains 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:52:23.050 - Direct rate found: JPY -> GBP = 0,0050380609
+2025-07-23 23:52:23.051 - FINAL RESULT: GetExchangeRate(JPY -> GBP) returning 0,0050380609
+2025-07-23 23:52:23.051 - Exchange rate JPY to GBP: 0,0050380609
+2025-07-23 23:52:23.052 - Conversion result: 1 * 0,0050380609 = 0,0050380609
+2025-07-23 23:52:23.052 - FINAL CONVERSION: 1 JPY = 0,0050380609 GBP
+2025-07-23 23:52:23.053 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0050380609
+2025-07-23 23:52:23.054 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,0050380609
+2025-07-23 23:52:23.203 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:23.205 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:23.205 - GetExchangeRate called: CAD -> GBP
+2025-07-23 23:52:23.206 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:23.206 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:23.207 - Direct rate found: CAD -> GBP = 0,5437188013
+2025-07-23 23:52:23.207 - FINAL RESULT: GetExchangeRate(CAD -> GBP) returning 0,5437188013
+2025-07-23 23:52:23.208 - Exchange rate CAD to GBP: 0,5437188013
+2025-07-23 23:52:23.208 - Conversion result: 1 * 0,5437188013 = 0,5437188013
+2025-07-23 23:52:23.209 - FINAL CONVERSION: 1 CAD = 0,5437188013 GBP
+2025-07-23 23:52:23.209 INFO    [CurrencyViewModel] Conversion completed - Result: 0,5437188013
+2025-07-23 23:52:23.210 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,5437188013
+2025-07-23 23:52:24.449 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:24.450 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:24.451 - GetExchangeRate called: CAD -> JPY
+2025-07-23 23:52:24.452 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:24.452 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:24.453 - Direct rate found: CAD -> JPY = 107,9222359468
+2025-07-23 23:52:24.453 - FINAL RESULT: GetExchangeRate(CAD -> JPY) returning 107,9222359468
+2025-07-23 23:52:24.454 - Exchange rate CAD to JPY: 107,9222359468
+2025-07-23 23:52:24.455 - Conversion result: 1 * 107,9222359468 = 107,9222359468
+2025-07-23 23:52:24.455 - FINAL CONVERSION: 1 CAD = 107,9222359468 JPY
+2025-07-23 23:52:24.456 INFO    [CurrencyViewModel] Conversion completed - Result: 107,9222359468
+2025-07-23 23:52:24.458 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 107,9222359468
+2025-07-23 23:52:24.652 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:24.653 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:24.653 - GetExchangeRate called: CAD -> CAD
+2025-07-23 23:52:24.654 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:24.654 - Exchange rate CAD to CAD: 1
+2025-07-23 23:52:24.654 - Conversion result: 1 * 1 = 1
+2025-07-23 23:52:24.655 - FINAL CONVERSION: 1 CAD = 1 CAD
+2025-07-23 23:52:24.655 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:52:24.656 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:52:25.011 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:25.012 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:25.012 - GetExchangeRate called: CAD -> JPY
+2025-07-23 23:52:25.013 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:25.013 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:25.013 - Direct rate found: CAD -> JPY = 107,9222359468
+2025-07-23 23:52:25.014 - FINAL RESULT: GetExchangeRate(CAD -> JPY) returning 107,9222359468
+2025-07-23 23:52:25.014 - Exchange rate CAD to JPY: 107,9222359468
+2025-07-23 23:52:25.014 - Conversion result: 1 * 107,9222359468 = 107,9222359468
+2025-07-23 23:52:25.015 - FINAL CONVERSION: 1 CAD = 107,9222359468 JPY
+2025-07-23 23:52:25.015 INFO    [CurrencyViewModel] Conversion completed - Result: 107,9222359468
+2025-07-23 23:52:25.016 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 107,9222359468
+2025-07-23 23:52:25.188 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:25.189 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:25.190 - GetExchangeRate called: CAD -> GBP
+2025-07-23 23:52:25.190 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:25.190 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:25.191 - Direct rate found: CAD -> GBP = 0,5437188013
+2025-07-23 23:52:25.191 - FINAL RESULT: GetExchangeRate(CAD -> GBP) returning 0,5437188013
+2025-07-23 23:52:25.191 - Exchange rate CAD to GBP: 0,5437188013
+2025-07-23 23:52:25.192 - Conversion result: 1 * 0,5437188013 = 0,5437188013
+2025-07-23 23:52:25.192 - FINAL CONVERSION: 1 CAD = 0,5437188013 GBP
+2025-07-23 23:52:25.192 INFO    [CurrencyViewModel] Conversion completed - Result: 0,5437188013
+2025-07-23 23:52:25.193 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,5437188013
+2025-07-23 23:52:25.346 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:25.347 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:25.347 - GetExchangeRate called: CAD -> EUR
+2025-07-23 23:52:25.347 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:25.348 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:25.348 - Direct rate found: CAD -> EUR = 0,6262967158
+2025-07-23 23:52:25.348 - FINAL RESULT: GetExchangeRate(CAD -> EUR) returning 0,6262967158
+2025-07-23 23:52:25.348 - Exchange rate CAD to EUR: 0,6262967158
+2025-07-23 23:52:25.349 - Conversion result: 1 * 0,6262967158 = 0,6262967158
+2025-07-23 23:52:25.349 - FINAL CONVERSION: 1 CAD = 0,6262967158 EUR
+2025-07-23 23:52:25.349 INFO    [CurrencyViewModel] Conversion completed - Result: 0,6262967158
+2025-07-23 23:52:25.350 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,6262967158
+2025-07-23 23:52:25.492 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:25.493 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:25.493 - GetExchangeRate called: CAD -> USD
+2025-07-23 23:52:25.493 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:25.494 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:25.494 - Direct rate found: CAD -> USD = 0,7352021046
+2025-07-23 23:52:25.495 - FINAL RESULT: GetExchangeRate(CAD -> USD) returning 0,7352021046
+2025-07-23 23:52:25.495 - Exchange rate CAD to USD: 0,7352021046
+2025-07-23 23:52:25.495 - Conversion result: 1 * 0,7352021046 = 0,7352021046
+2025-07-23 23:52:25.496 - FINAL CONVERSION: 1 CAD = 0,7352021046 USD
+2025-07-23 23:52:25.496 INFO    [CurrencyViewModel] Conversion completed - Result: 0,7352021046
+2025-07-23 23:52:25.497 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,7352021046
+2025-07-23 23:52:26.379 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:26.379 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:26.380 - GetExchangeRate called: CAD -> EUR
+2025-07-23 23:52:26.380 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:26.380 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:26.380 - Direct rate found: CAD -> EUR = 0,6262967158
+2025-07-23 23:52:26.381 - FINAL RESULT: GetExchangeRate(CAD -> EUR) returning 0,6262967158
+2025-07-23 23:52:26.381 - Exchange rate CAD to EUR: 0,6262967158
+2025-07-23 23:52:26.381 - Conversion result: 1 * 0,6262967158 = 0,6262967158
+2025-07-23 23:52:26.381 - FINAL CONVERSION: 1 CAD = 0,6262967158 EUR
+2025-07-23 23:52:26.382 INFO    [CurrencyViewModel] Conversion completed - Result: 0,6262967158
+2025-07-23 23:52:26.382 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,6262967158
+2025-07-23 23:52:26.595 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:26.596 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:26.597 - GetExchangeRate called: CAD -> GBP
+2025-07-23 23:52:26.597 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:26.598 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:26.598 - Direct rate found: CAD -> GBP = 0,5437188013
+2025-07-23 23:52:26.598 - FINAL RESULT: GetExchangeRate(CAD -> GBP) returning 0,5437188013
+2025-07-23 23:52:26.599 - Exchange rate CAD to GBP: 0,5437188013
+2025-07-23 23:52:26.599 - Conversion result: 1 * 0,5437188013 = 0,5437188013
+2025-07-23 23:52:26.600 - FINAL CONVERSION: 1 CAD = 0,5437188013 GBP
+2025-07-23 23:52:26.600 INFO    [CurrencyViewModel] Conversion completed - Result: 0,5437188013
+2025-07-23 23:52:26.601 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,5437188013
+2025-07-23 23:52:26.820 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:26.821 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:26.822 - GetExchangeRate called: CAD -> JPY
+2025-07-23 23:52:26.823 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:26.823 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:26.824 - Direct rate found: CAD -> JPY = 107,9222359468
+2025-07-23 23:52:26.824 - FINAL RESULT: GetExchangeRate(CAD -> JPY) returning 107,9222359468
+2025-07-23 23:52:26.824 - Exchange rate CAD to JPY: 107,9222359468
+2025-07-23 23:52:26.825 - Conversion result: 1 * 107,9222359468 = 107,9222359468
+2025-07-23 23:52:26.825 - FINAL CONVERSION: 1 CAD = 107,9222359468 JPY
+2025-07-23 23:52:26.826 INFO    [CurrencyViewModel] Conversion completed - Result: 107,9222359468
+2025-07-23 23:52:26.826 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 107,9222359468
+2025-07-23 23:52:29.483 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:29.483 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:29.484 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:29.484 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:29.485 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:29.485 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:29.485 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:29.486 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:29.487 - Conversion result: 1 * 96,2284130722 = 96,2284130722
+2025-07-23 23:52:29.487 - FINAL CONVERSION: 1 AUD = 96,2284130722 JPY
+2025-07-23 23:52:29.488 INFO    [CurrencyViewModel] Conversion completed - Result: 96,2284130722
+2025-07-23 23:52:29.489 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 96,2284130722
+2025-07-23 23:52:30.110 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:30.111 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:30.112 - GetExchangeRate called: CAD -> JPY
+2025-07-23 23:52:30.112 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:30.113 - Found rates for CAD, contains 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:30.114 - Direct rate found: CAD -> JPY = 107,9222359468
+2025-07-23 23:52:30.114 - FINAL RESULT: GetExchangeRate(CAD -> JPY) returning 107,9222359468
+2025-07-23 23:52:30.115 - Exchange rate CAD to JPY: 107,9222359468
+2025-07-23 23:52:30.115 - Conversion result: 1 * 107,9222359468 = 107,9222359468
+2025-07-23 23:52:30.116 - FINAL CONVERSION: 1 CAD = 107,9222359468 JPY
+2025-07-23 23:52:30.116 INFO    [CurrencyViewModel] Conversion completed - Result: 107,9222359468
+2025-07-23 23:52:30.117 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 107,9222359468
+2025-07-23 23:52:30.716 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:30.717 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:30.718 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:30.718 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 23:52:30.719 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:30.719 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:30.720 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:30.721 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:30.721 - Conversion result: 1 * 96,2284130722 = 96,2284130722
+2025-07-23 23:52:30.722 - FINAL CONVERSION: 1 AUD = 96,2284130722 JPY
+2025-07-23 23:52:30.723 INFO    [CurrencyViewModel] Conversion completed - Result: 96,2284130722
+2025-07-23 23:52:30.724 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 96,2284130722
+2025-07-23 23:52:31.396 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:31.397 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:31.398 - Fetching rates from API for CHF
+2025-07-23 23:52:31.482 - API Response received: 217 characters
+2025-07-23 23:52:31.484 - API rate: CHF -> AUD = 1,9219604052
+2025-07-23 23:52:31.484 - API rate: CHF -> CAD = 1,7137080061
+2025-07-23 23:52:31.485 - API rate: CHF -> CHF = 1
+2025-07-23 23:52:31.485 - API rate: CHF -> CNY = 9,0363366668
+2025-07-23 23:52:31.486 - API rate: CHF -> EUR = 1,0732896961
+2025-07-23 23:52:31.487 - API rate: CHF -> GBP = 0,9317752629
+2025-07-23 23:52:31.487 - API rate: CHF -> IDR = 20520,2955925535
+2025-07-23 23:52:31.488 - API rate: CHF -> INR = 108,6621835856
+2025-07-23 23:52:31.489 - API rate: CHF -> JPY = 184,9471997763
+2025-07-23 23:52:31.489 - API rate: CHF -> RUB = 98,8059073663
+2025-07-23 23:52:31.490 - API rate: CHF -> USD = 1,2599217328
+2025-07-23 23:52:31.490 - API returned 11 real rates for CHF: CHF, AUD, CAD, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.491 - Final rates for CHF: 11 currencies: CHF, AUD, CAD, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.496 - Saved 8 base currencies to exchange_rates.json with full precision
+2025-07-23 23:52:31.497 - GetExchangeRate called: CHF -> JPY
+2025-07-23 23:52:31.497 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF
+2025-07-23 23:52:31.498 - Found rates for CHF, contains 11 currencies: CHF, AUD, CAD, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.498 - Direct rate found: CHF -> JPY = 184,9471997763
+2025-07-23 23:52:31.498 - FINAL RESULT: GetExchangeRate(CHF -> JPY) returning 184,9471997763
+2025-07-23 23:52:31.499 - Exchange rate CHF to JPY: 184,9471997763
+2025-07-23 23:52:31.499 - Conversion result: 1 * 184,9471997763 = 184,9471997763
+2025-07-23 23:52:31.499 - FINAL CONVERSION: 1 CHF = 184,9471997763 JPY
+2025-07-23 23:52:31.500 INFO    [CurrencyViewModel] Conversion completed - Result: 184,9471997763
+2025-07-23 23:52:31.501 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 184,9471997763
+2025-07-23 23:52:31.684 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:31.685 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:31.686 - Fetching rates from API for CNY
+2025-07-23 23:52:31.765 - API Response received: 214 characters
+2025-07-23 23:52:31.765 - API rate: CNY -> AUD = 0,2126924301
+2025-07-23 23:52:31.765 - API rate: CNY -> CAD = 0,1896463212
+2025-07-23 23:52:31.766 - API rate: CNY -> CHF = 0,1106643142
+2025-07-23 23:52:31.766 - API rate: CNY -> CNY = 1
+2025-07-23 23:52:31.766 - API rate: CNY -> EUR = 0,1187748681
+2025-07-23 23:52:31.766 - API rate: CNY -> GBP = 0,1031142704
+2025-07-23 23:52:31.767 - API rate: CNY -> IDR = 2270,8644386839
+2025-07-23 23:52:31.767 - API rate: CNY -> INR = 12,0250260247
+2025-07-23 23:52:31.767 - API rate: CNY -> JPY = 20,4670550242
+2025-07-23 23:52:31.768 - API rate: CNY -> RUB = 10,9342879764
+2025-07-23 23:52:31.768 - API rate: CNY -> USD = 0,1394283745
+2025-07-23 23:52:31.770 - API returned 11 real rates for CNY: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.771 - Final rates for CNY: 11 currencies: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.773 - Saved 9 base currencies to exchange_rates.json with full precision
+2025-07-23 23:52:31.773 - GetExchangeRate called: CNY -> JPY
+2025-07-23 23:52:31.773 - Cache contains 9 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY
+2025-07-23 23:52:31.774 - Found rates for CNY, contains 11 currencies: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:31.774 - Direct rate found: CNY -> JPY = 20,4670550242
+2025-07-23 23:52:31.774 - FINAL RESULT: GetExchangeRate(CNY -> JPY) returning 20,4670550242
+2025-07-23 23:52:31.775 - Exchange rate CNY to JPY: 20,4670550242
+2025-07-23 23:52:31.775 - Conversion result: 1 * 20,4670550242 = 20,4670550242
+2025-07-23 23:52:31.775 - FINAL CONVERSION: 1 CNY = 20,4670550242 JPY
+2025-07-23 23:52:31.776 INFO    [CurrencyViewModel] Conversion completed - Result: 20,4670550242
+2025-07-23 23:52:31.776 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 20,4670550242
+2025-07-23 23:52:31.978 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:31.979 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:31.979 - Fetching rates from API for INR
+2025-07-23 23:52:32.037 - API Response received: 210 characters
+2025-07-23 23:52:32.037 - API rate: INR -> AUD = 0,0176874819
+2025-07-23 23:52:32.037 - API rate: INR -> CAD = 0,0157709697
+2025-07-23 23:52:32.038 - API rate: INR -> CHF = 0,0092028337
+2025-07-23 23:52:32.038 - API rate: INR -> CNY = 0,0831599032
+2025-07-23 23:52:32.038 - API rate: INR -> EUR = 0,0098773065
+2025-07-23 23:52:32.038 - API rate: INR -> GBP = 0,0085749727
+2025-07-23 23:52:32.038 - API rate: INR -> IDR = 188,8448668657
+2025-07-23 23:52:32.038 - API rate: INR -> INR = 1
+2025-07-23 23:52:32.039 - API rate: INR -> JPY = 1,7020383143
+2025-07-23 23:52:32.039 - API rate: INR -> RUB = 0,9092943295
+2025-07-23 23:52:32.039 - API rate: INR -> USD = 0,0115948501
+2025-07-23 23:52:32.039 - API returned 11 real rates for INR: INR, AUD, CAD, CHF, CNY, EUR, GBP, IDR, JPY, RUB, USD
+2025-07-23 23:52:32.039 - Final rates for INR: 11 currencies: INR, AUD, CAD, CHF, CNY, EUR, GBP, IDR, JPY, RUB, USD
+2025-07-23 23:52:32.040 - Saved 10 base currencies to exchange_rates.json with full precision
+2025-07-23 23:52:32.040 - GetExchangeRate called: INR -> JPY
+2025-07-23 23:52:32.041 - Cache contains 10 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR
+2025-07-23 23:52:32.041 - Found rates for INR, contains 11 currencies: INR, AUD, CAD, CHF, CNY, EUR, GBP, IDR, JPY, RUB, USD
+2025-07-23 23:52:32.041 - Direct rate found: INR -> JPY = 1,7020383143
+2025-07-23 23:52:32.041 - FINAL RESULT: GetExchangeRate(INR -> JPY) returning 1,7020383143
+2025-07-23 23:52:32.041 - Exchange rate INR to JPY: 1,7020383143
+2025-07-23 23:52:32.041 - Conversion result: 1 * 1,7020383143 = 1,7020383143
+2025-07-23 23:52:32.042 - FINAL CONVERSION: 1 INR = 1,7020383143 JPY
+2025-07-23 23:52:32.042 INFO    [CurrencyViewModel] Conversion completed - Result: 1,7020383143
+2025-07-23 23:52:32.042 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,7020383143
+2025-07-23 23:52:32.179 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:32.180 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:32.180 - Fetching rates from API for RUB
+2025-07-23 23:52:32.251 - API Response received: 210 characters
+2025-07-23 23:52:32.251 - API rate: RUB -> AUD = 0,0194518775
+2025-07-23 23:52:32.252 - API rate: RUB -> CAD = 0,0173441857
+2025-07-23 23:52:32.252 - API rate: RUB -> CHF = 0,0101208524
+2025-07-23 23:52:32.252 - API rate: RUB -> CNY = 0,0914554292
+2025-07-23 23:52:32.252 - API rate: RUB -> EUR = 0,0108626065
+2025-07-23 23:52:32.253 - API rate: RUB -> GBP = 0,0094303599
+2025-07-23 23:52:32.253 - API rate: RUB -> IDR = 207,6828819201
+2025-07-23 23:52:32.253 - API rate: RUB -> INR = 1,0997539164
+2025-07-23 23:52:32.253 - API rate: RUB -> JPY = 1,8718233019
+2025-07-23 23:52:32.253 - API rate: RUB -> RUB = 1
+2025-07-23 23:52:32.254 - API rate: RUB -> USD = 0,0127514818
+2025-07-23 23:52:32.254 - API returned 11 real rates for RUB: RUB, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, USD
+2025-07-23 23:52:32.254 - Final rates for RUB: 11 currencies: RUB, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, USD
+2025-07-23 23:52:32.255 - Saved 11 base currencies to exchange_rates.json with full precision
+2025-07-23 23:52:32.255 - GetExchangeRate called: RUB -> JPY
+2025-07-23 23:52:32.256 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:32.256 - Found rates for RUB, contains 11 currencies: RUB, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, USD
+2025-07-23 23:52:32.256 - Direct rate found: RUB -> JPY = 1,8718233019
+2025-07-23 23:52:32.256 - FINAL RESULT: GetExchangeRate(RUB -> JPY) returning 1,8718233019
+2025-07-23 23:52:32.256 - Exchange rate RUB to JPY: 1,8718233019
+2025-07-23 23:52:32.256 - Conversion result: 1 * 1,8718233019 = 1,8718233019
+2025-07-23 23:52:32.257 - FINAL CONVERSION: 1 RUB = 1,8718233019 JPY
+2025-07-23 23:52:32.257 INFO    [CurrencyViewModel] Conversion completed - Result: 1,8718233019
+2025-07-23 23:52:32.257 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,8718233019
+2025-07-23 23:52:32.452 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:32.453 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:32.454 - GetExchangeRate called: INR -> JPY
+2025-07-23 23:52:32.455 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:32.455 - Found rates for INR, contains 11 currencies: INR, AUD, CAD, CHF, CNY, EUR, GBP, IDR, JPY, RUB, USD
+2025-07-23 23:52:32.456 - Direct rate found: INR -> JPY = 1,7020383143
+2025-07-23 23:52:32.456 - FINAL RESULT: GetExchangeRate(INR -> JPY) returning 1,7020383143
+2025-07-23 23:52:32.457 - Exchange rate INR to JPY: 1,7020383143
+2025-07-23 23:52:32.457 - Conversion result: 1 * 1,7020383143 = 1,7020383143
+2025-07-23 23:52:32.458 - FINAL CONVERSION: 1 INR = 1,7020383143 JPY
+2025-07-23 23:52:32.458 INFO    [CurrencyViewModel] Conversion completed - Result: 1,7020383143
+2025-07-23 23:52:32.459 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1,7020383143
+2025-07-23 23:52:32.650 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:32.650 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:32.651 - GetExchangeRate called: CNY -> JPY
+2025-07-23 23:52:32.651 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:32.651 - Found rates for CNY, contains 11 currencies: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:32.651 - Direct rate found: CNY -> JPY = 20,4670550242
+2025-07-23 23:52:32.652 - FINAL RESULT: GetExchangeRate(CNY -> JPY) returning 20,4670550242
+2025-07-23 23:52:32.652 - Exchange rate CNY to JPY: 20,4670550242
+2025-07-23 23:52:32.652 - Conversion result: 1 * 20,4670550242 = 20,4670550242
+2025-07-23 23:52:32.653 - FINAL CONVERSION: 1 CNY = 20,4670550242 JPY
+2025-07-23 23:52:32.653 INFO    [CurrencyViewModel] Conversion completed - Result: 20,4670550242
+2025-07-23 23:52:32.653 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 20,4670550242
+2025-07-23 23:52:32.818 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:32.818 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:32.819 - GetExchangeRate called: CHF -> JPY
+2025-07-23 23:52:32.819 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:32.819 - Found rates for CHF, contains 11 currencies: CHF, AUD, CAD, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:32.820 - Direct rate found: CHF -> JPY = 184,9471997763
+2025-07-23 23:52:32.820 - FINAL RESULT: GetExchangeRate(CHF -> JPY) returning 184,9471997763
+2025-07-23 23:52:32.820 - Exchange rate CHF to JPY: 184,9471997763
+2025-07-23 23:52:32.820 - Conversion result: 1 * 184,9471997763 = 184,9471997763
+2025-07-23 23:52:32.821 - FINAL CONVERSION: 1 CHF = 184,9471997763 JPY
+2025-07-23 23:52:32.821 INFO    [CurrencyViewModel] Conversion completed - Result: 184,9471997763
+2025-07-23 23:52:32.821 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 184,9471997763
+2025-07-23 23:52:33.091 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:33.092 - ConvertAsync called - Amount: 1
+2025-07-23 23:52:33.093 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:33.093 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:33.094 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:33.094 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:33.094 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:33.095 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:33.095 - Conversion result: 1 * 96,2284130722 = 96,2284130722
+2025-07-23 23:52:33.096 - FINAL CONVERSION: 1 AUD = 96,2284130722 JPY
+2025-07-23 23:52:33.096 INFO    [CurrencyViewModel] Conversion completed - Result: 96,2284130722
+2025-07-23 23:52:33.097 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 96,2284130722
+2025-07-23 23:52:37.932 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:37.932 - ConvertAsync called - Amount: 0
+2025-07-23 23:52:37.932 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:37.933 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:37.933 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:37.933 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:37.933 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:37.934 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:37.934 - Conversion result: 0 * 96,2284130722 = 0
+2025-07-23 23:52:37.934 - FINAL CONVERSION: 0 AUD = 0 JPY
+2025-07-23 23:52:37.934 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:52:37.934 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:52:43.398 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:43.399 - ConvertAsync called - Amount: 7
+2025-07-23 23:52:43.399 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:43.400 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:43.400 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:43.401 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:43.401 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:43.401 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:43.402 - Conversion result: 7 * 96,2284130722 = 673,5988915054
+2025-07-23 23:52:43.402 - FINAL CONVERSION: 7 AUD = 673,5988915054 JPY
+2025-07-23 23:52:43.403 INFO    [CurrencyViewModel] Conversion completed - Result: 673,5988915054
+2025-07-23 23:52:43.404 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7, ConvertedAmount: 673,5988915054
+2025-07-23 23:52:44.348 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:44.349 - ConvertAsync called - Amount: 79
+2025-07-23 23:52:44.349 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:44.350 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:44.350 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:44.351 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:44.351 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:44.351 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:44.351 - Conversion result: 79 * 96,2284130722 = 7602,0446327038
+2025-07-23 23:52:44.352 - FINAL CONVERSION: 79 AUD = 7602,0446327038 JPY
+2025-07-23 23:52:44.352 INFO    [CurrencyViewModel] Conversion completed - Result: 7602,0446327038
+2025-07-23 23:52:44.353 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 79, ConvertedAmount: 7602,0446327038
+2025-07-23 23:52:45.604 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:45.604 - ConvertAsync called - Amount: 795
+2025-07-23 23:52:45.605 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:45.605 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:45.605 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:45.605 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:45.606 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:45.606 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:45.606 - Conversion result: 795 * 96,2284130722 = 76501,5883923990
+2025-07-23 23:52:45.606 - FINAL CONVERSION: 795 AUD = 76501,5883923990 JPY
+2025-07-23 23:52:45.607 INFO    [CurrencyViewModel] Conversion completed - Result: 76501,5883923990
+2025-07-23 23:52:45.607 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 795, ConvertedAmount: 76501,5883923990
+2025-07-23 23:52:46.709 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:46.709 - ConvertAsync called - Amount: 7952
+2025-07-23 23:52:46.710 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:46.710 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:46.710 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:46.710 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:46.711 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:46.711 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:46.711 - Conversion result: 7952 * 96,2284130722 = 765208,3407501344
+2025-07-23 23:52:46.711 - FINAL CONVERSION: 7952 AUD = 765208,3407501344 JPY
+2025-07-23 23:52:46.712 INFO    [CurrencyViewModel] Conversion completed - Result: 765208,3407501344
+2025-07-23 23:52:46.712 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 765208,3407501344
+2025-07-23 23:52:53.090 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:53.091 - ConvertAsync called - Amount: 7952
+2025-07-23 23:52:53.091 - GetExchangeRate called: CHF -> JPY
+2025-07-23 23:52:53.091 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:53.092 - Found rates for CHF, contains 11 currencies: CHF, AUD, CAD, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:53.092 - Direct rate found: CHF -> JPY = 184,9471997763
+2025-07-23 23:52:53.092 - FINAL RESULT: GetExchangeRate(CHF -> JPY) returning 184,9471997763
+2025-07-23 23:52:53.092 - Exchange rate CHF to JPY: 184,9471997763
+2025-07-23 23:52:53.092 - Conversion result: 7952 * 184,9471997763 = 1470700,1326211376
+2025-07-23 23:52:53.093 - FINAL CONVERSION: 7952 CHF = 1470700,1326211376 JPY
+2025-07-23 23:52:53.093 INFO    [CurrencyViewModel] Conversion completed - Result: 1470700,1326211376
+2025-07-23 23:52:53.093 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 1470700,1326211376
+2025-07-23 23:52:53.699 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:52:53.699 - ConvertAsync called - Amount: 7952
+2025-07-23 23:52:53.700 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:52:53.700 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:52:53.700 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:52:53.701 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:52:53.701 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:52:53.701 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:52:53.701 - Conversion result: 7952 * 96,2284130722 = 765208,3407501344
+2025-07-23 23:52:53.701 - FINAL CONVERSION: 7952 AUD = 765208,3407501344 JPY
+2025-07-23 23:52:53.702 INFO    [CurrencyViewModel] Conversion completed - Result: 765208,3407501344
+2025-07-23 23:52:53.702 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 765208,3407501344
+2025-07-23 23:53:03.131 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:03.131 - ConvertAsync called - Amount: 7952
+2025-07-23 23:53:03.131 - GetExchangeRate called: JPY -> JPY
+2025-07-23 23:53:03.131 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:03.132 - Exchange rate JPY to JPY: 1
+2025-07-23 23:53:03.132 - Conversion result: 7952 * 1 = 7952
+2025-07-23 23:53:03.132 - FINAL CONVERSION: 7952 JPY = 7952 JPY
+2025-07-23 23:53:03.132 INFO    [CurrencyViewModel] Conversion completed - Result: 7952
+2025-07-23 23:53:03.132 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 7952
+2025-07-23 23:53:03.133 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:03.133 - ConvertAsync called - Amount: 7952
+2025-07-23 23:53:03.133 - GetExchangeRate called: JPY -> AUD
+2025-07-23 23:53:03.134 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:03.134 - Found rates for JPY, contains 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 23:53:03.134 - Direct rate found: JPY -> AUD = 0,0103919411
+2025-07-23 23:53:03.134 - FINAL RESULT: GetExchangeRate(JPY -> AUD) returning 0,0103919411
+2025-07-23 23:53:03.134 - Exchange rate JPY to AUD: 0,0103919411
+2025-07-23 23:53:03.134 - Conversion result: 7952 * 0,0103919411 = 82,6367156272
+2025-07-23 23:53:03.134 - FINAL CONVERSION: 7952 JPY = 82,6367156272 AUD
+2025-07-23 23:53:03.135 INFO    [CurrencyViewModel] Conversion completed - Result: 82,6367156272
+2025-07-23 23:53:03.135 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 82,6367156272
+2025-07-23 23:53:03.892 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:03.892 - ConvertAsync called - Amount: 7952
+2025-07-23 23:53:03.892 - GetExchangeRate called: AUD -> AUD
+2025-07-23 23:53:03.892 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:03.893 - Exchange rate AUD to AUD: 1
+2025-07-23 23:53:03.893 - Conversion result: 7952 * 1 = 7952
+2025-07-23 23:53:03.893 - FINAL CONVERSION: 7952 AUD = 7952 AUD
+2025-07-23 23:53:03.893 INFO    [CurrencyViewModel] Conversion completed - Result: 7952
+2025-07-23 23:53:03.893 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 7952
+2025-07-23 23:53:03.894 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:03.895 - ConvertAsync called - Amount: 7952
+2025-07-23 23:53:03.895 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:53:03.895 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:03.895 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:03.895 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:53:03.895 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:53:03.896 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:53:03.896 - Conversion result: 7952 * 96,2284130722 = 765208,3407501344
+2025-07-23 23:53:03.896 - FINAL CONVERSION: 7952 AUD = 765208,3407501344 JPY
+2025-07-23 23:53:03.896 INFO    [CurrencyViewModel] Conversion completed - Result: 765208,3407501344
+2025-07-23 23:53:03.897 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 7952, ConvertedAmount: 765208,3407501344
+2025-07-23 23:53:06.331 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:06.332 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:06.332 - GetExchangeRate called: AUD -> JPY
+2025-07-23 23:53:06.332 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:06.332 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:06.332 - Direct rate found: AUD -> JPY = 96,2284130722
+2025-07-23 23:53:06.333 - FINAL RESULT: GetExchangeRate(AUD -> JPY) returning 96,2284130722
+2025-07-23 23:53:06.333 - Exchange rate AUD to JPY: 96,2284130722
+2025-07-23 23:53:06.333 - Conversion result: 0 * 96,2284130722 = 0
+2025-07-23 23:53:06.333 - FINAL CONVERSION: 0 AUD = 0 JPY
+2025-07-23 23:53:06.333 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:06.334 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:09.418 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:09.418 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:09.418 - GetExchangeRate called: AUD -> IDR
+2025-07-23 23:53:09.418 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:09.418 - Found rates for AUD, contains 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:09.419 - Direct rate found: AUD -> IDR = 10676,7525165721
+2025-07-23 23:53:09.419 - FINAL RESULT: GetExchangeRate(AUD -> IDR) returning 10676,7525165721
+2025-07-23 23:53:09.419 - Exchange rate AUD to IDR: 10676,7525165721
+2025-07-23 23:53:09.419 - Conversion result: 0 * 10676,7525165721 = 0
+2025-07-23 23:53:09.419 - FINAL CONVERSION: 0 AUD = 0 IDR
+2025-07-23 23:53:09.419 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:09.420 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:11.450 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:11.451 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:11.451 - GetExchangeRate called: EUR -> IDR
+2025-07-23 23:53:11.451 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:11.451 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:11.451 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 23:53:11.452 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 23:53:11.452 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 23:53:11.452 - Conversion result: 0 * 19119,0651205323 = 0
+2025-07-23 23:53:11.452 - FINAL CONVERSION: 0 EUR = 0 IDR
+2025-07-23 23:53:11.452 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:11.453 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:12.891 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:12.891 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:12.892 - GetExchangeRate called: IDR -> IDR
+2025-07-23 23:53:12.892 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:12.892 - Exchange rate IDR to IDR: 1
+2025-07-23 23:53:12.892 - Conversion result: 0 * 1 = 0
+2025-07-23 23:53:12.892 - FINAL CONVERSION: 0 IDR = 0 IDR
+2025-07-23 23:53:12.892 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:12.893 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:12.915 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:12.916 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:12.916 - GetExchangeRate called: IDR -> EUR
+2025-07-23 23:53:12.916 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:12.916 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 23:53:12.917 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 23:53:12.917 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 23:53:12.917 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 23:53:12.917 - Conversion result: 0 * 0,0000523038 = 0,0000000000
+2025-07-23 23:53:12.917 - FINAL CONVERSION: 0 IDR = 0,0000000000 EUR
+2025-07-23 23:53:12.917 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000000000
+2025-07-23 23:53:12.918 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0,0000000000
+2025-07-23 23:53:13.347 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:13.347 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:13.347 - GetExchangeRate called: EUR -> EUR
+2025-07-23 23:53:13.347 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:13.348 - Exchange rate EUR to EUR: 1
+2025-07-23 23:53:13.348 - Conversion result: 0 * 1 = 0
+2025-07-23 23:53:13.348 - FINAL CONVERSION: 0 EUR = 0 EUR
+2025-07-23 23:53:13.348 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:13.348 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:13.349 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:13.349 - ConvertAsync called - Amount: 0
+2025-07-23 23:53:13.350 - GetExchangeRate called: EUR -> IDR
+2025-07-23 23:53:13.350 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:13.350 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:13.350 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 23:53:13.350 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 23:53:13.351 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 23:53:13.351 - Conversion result: 0 * 19119,0651205323 = 0
+2025-07-23 23:53:13.351 - FINAL CONVERSION: 0 EUR = 0 IDR
+2025-07-23 23:53:13.351 INFO    [CurrencyViewModel] Conversion completed - Result: 0
+2025-07-23 23:53:13.351 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 0, ConvertedAmount: 0
+2025-07-23 23:53:15.091 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:15.091 - ConvertAsync called - Amount: 1
+2025-07-23 23:53:15.091 - GetExchangeRate called: EUR -> IDR
+2025-07-23 23:53:15.092 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:15.092 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:15.092 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 23:53:15.092 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 23:53:15.092 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 23:53:15.092 - Conversion result: 1 * 19119,0651205323 = 19119,0651205323
+2025-07-23 23:53:15.093 - FINAL CONVERSION: 1 EUR = 19119,0651205323 IDR
+2025-07-23 23:53:15.093 INFO    [CurrencyViewModel] Conversion completed - Result: 19119,0651205323
+2025-07-23 23:53:15.093 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 19119,0651205323
+2025-07-23 23:53:19.298 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:19.299 - ConvertAsync called - Amount: 1
+2025-07-23 23:53:19.299 - GetExchangeRate called: IDR -> IDR
+2025-07-23 23:53:19.300 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:19.300 - Exchange rate IDR to IDR: 1
+2025-07-23 23:53:19.300 - Conversion result: 1 * 1 = 1
+2025-07-23 23:53:19.300 - FINAL CONVERSION: 1 IDR = 1 IDR
+2025-07-23 23:53:19.300 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:53:19.301 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:53:19.301 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:19.302 - ConvertAsync called - Amount: 1
+2025-07-23 23:53:19.302 - GetExchangeRate called: IDR -> EUR
+2025-07-23 23:53:19.302 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:19.302 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 23:53:19.302 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 23:53:19.303 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 23:53:19.303 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 23:53:19.303 - Conversion result: 1 * 0,0000523038 = 0,0000523038
+2025-07-23 23:53:19.303 - FINAL CONVERSION: 1 IDR = 0,0000523038 EUR
+2025-07-23 23:53:19.303 INFO    [CurrencyViewModel] Conversion completed - Result: 0,0000523038
+2025-07-23 23:53:19.303 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 0,0000523038
+2025-07-23 23:53:20.987 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:20.988 - ConvertAsync called - Amount: 1
+2025-07-23 23:53:20.988 - GetExchangeRate called: EUR -> EUR
+2025-07-23 23:53:20.988 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:20.988 - Exchange rate EUR to EUR: 1
+2025-07-23 23:53:20.988 - Conversion result: 1 * 1 = 1
+2025-07-23 23:53:20.988 - FINAL CONVERSION: 1 EUR = 1 EUR
+2025-07-23 23:53:20.988 INFO    [CurrencyViewModel] Conversion completed - Result: 1
+2025-07-23 23:53:20.989 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 1
+2025-07-23 23:53:20.989 DEBUG   [CurrencyViewModel] CurrencyViewModel.ConvertAsync called
+2025-07-23 23:53:20.990 - ConvertAsync called - Amount: 1
+2025-07-23 23:53:20.990 - GetExchangeRate called: EUR -> IDR
+2025-07-23 23:53:20.990 - Cache contains 11 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CHF, CNY, INR, RUB
+2025-07-23 23:53:20.990 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 23:53:20.990 - Direct rate found: EUR -> IDR = 19119,0651205323
+2025-07-23 23:53:20.991 - FINAL RESULT: GetExchangeRate(EUR -> IDR) returning 19119,0651205323
+2025-07-23 23:53:20.991 - Exchange rate EUR to IDR: 19119,0651205323
+2025-07-23 23:53:20.991 - Conversion result: 1 * 19119,0651205323 = 19119,0651205323
+2025-07-23 23:53:20.991 - FINAL CONVERSION: 1 EUR = 19119,0651205323 IDR
+2025-07-23 23:53:20.991 INFO    [CurrencyViewModel] Conversion completed - Result: 19119,0651205323
+2025-07-23 23:53:20.991 TRACE   [CurrencyViewModel] ConversionResult getter called - HasError: False, Amount: 1, ConvertedAmount: 19119,0651205323
