@@ -15,12 +15,6 @@
             <RowDefinition Height="Auto"/> <!-- Last Updated -->
         </Grid.RowDefinitions>
         
-        <!-- Header -->
-        <TextBlock Grid.Row="0" 
-                   Text="Currency Converter" 
-                   Style="{StaticResource HeaderTextBlockStyle}"
-                   Foreground="{StaticResource NeonYellowBrush}"
-                   Effect="{StaticResource YellowGlowEffect}"/>
         
         <!-- Currency Selection -->
         <Grid Grid.Row="1" Margin="5,10">
@@ -37,8 +31,8 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 
-                <TextBlock Grid.Row="0" 
-                           Text="From:" 
+                <TextBlock Grid.Row="0"
+                           Text="From:"
                            Style="{StaticResource LabelTextBlockStyle}"/>
                 
                 <ComboBox Grid.Row="1"
@@ -49,12 +43,22 @@
                           Background="White"
                           Foreground="Black"
                           BorderBrush="{StaticResource NeonCyanBrush}"
-                          FontWeight="Bold"/>
+                          FontWeight="Bold">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding FlagImagePath}" FontSize="20" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Code}" FontWeight="Bold" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Name}" FontWeight="Normal" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
             </Grid>
             
             <!-- Swap Button -->
-            <Button Grid.Column="1" 
-                    Content="⇄" 
+            <Button Grid.Column="1"
+                    Content="⇄"
                     Command="{Binding SwapCurrenciesCommand}"
                     Style="{StaticResource FunctionButtonStyle}"
                     Width="40"
@@ -69,8 +73,8 @@
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
                 
-                <TextBlock Grid.Row="0" 
-                           Text="To:" 
+                <TextBlock Grid.Row="0"
+                           Text="To:"
                            Style="{StaticResource LabelTextBlockStyle}"/>
                 
                 <ComboBox Grid.Row="1"
@@ -81,18 +85,28 @@
                           Background="White"
                           Foreground="Black"
                           BorderBrush="{StaticResource NeonCyanBrush}"
-                          FontWeight="Bold"/>
+                          FontWeight="Bold">
+                    <ComboBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding FlagImagePath}" FontSize="20" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Code}" FontWeight="Bold" Margin="0,0,8,0" VerticalAlignment="Center"/>
+                                <TextBlock Text="{Binding Name}" FontWeight="Normal" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ComboBox.ItemTemplate>
+                </ComboBox>
             </Grid>
         </Grid>
         
         <!-- Result -->
-        <TextBlock Grid.Row="2" 
-                   Text="{Binding ConversionResult}" 
+        <TextBlock Grid.Row="2"
+                   Text="{Binding ConversionResult}"
                    Style="{StaticResource CurrencyResultTextBlockStyle}"/>
         
         <!-- Last Updated -->
-        <TextBlock Grid.Row="3" 
-                   Text="{Binding LastUpdated}" 
+        <TextBlock Grid.Row="3"
+                   Text="{Binding LastUpdated}"
                    Style="{StaticResource LabelTextBlockStyle}"
                    HorizontalAlignment="Center"
                    Opacity="0.7"

@@ -13,29 +13,27 @@ namespace StylishCalculator.ViewModels
     {
         #region Properties
 
-        private CurrencyConverter _converter = new CurrencyConverter();
-        
         /// <summary>
-        /// The currency converter model
+        /// The currency converter model (singleton instance)
         /// </summary>
-        public CurrencyConverter Converter => _converter;
+        public CurrencyConverter Converter => CurrencyConverter.Instance;
 
         /// <summary>
         /// List of available currencies
         /// </summary>
-        public List<string> AvailableCurrencies => _converter.AvailableCurrencies;
+        public List<CurrencyInfo> AvailableCurrencies => Converter.AvailableCurrencies;
 
         /// <summary>
-        /// Source currency code
+        /// Source currency
         /// </summary>
-        public string FromCurrency
+        public CurrencyInfo FromCurrency
         {
-            get => _converter.FromCurrency;
+            get => Converter.FromCurrency;
             set
             {
-                if (_converter.FromCurrency != value)
+                if (Converter.FromCurrency != value)
                 {
-                    _converter.FromCurrency = value;
+                    Converter.FromCurrency = value;
                     OnPropertyChanged();
                     ConvertCommand.Execute(null);
                 }
@@ -43,16 +41,16 @@ namespace StylishCalculator.ViewModels
         }
 
         /// <summary>
-        /// Target currency code
+        /// Target currency
         /// </summary>
-        public string ToCurrency
+        public CurrencyInfo ToCurrency
         {
-            get => _converter.ToCurrency;
+            get => Converter.ToCurrency;
             set
             {
-                if (_converter.ToCurrency != value)
+                if (Converter.ToCurrency != value)
                 {
-                    _converter.ToCurrency = value;
+                    Converter.ToCurrency = value;
                     OnPropertyChanged();
                     ConvertCommand.Execute(null);
                 }
@@ -64,12 +62,12 @@ namespace StylishCalculator.ViewModels
         /// </summary>
         public decimal Amount
         {
-            get => _converter.Amount;
+            get => Converter.Amount;
             set
             {
-                if (_converter.Amount != value)
+                if (Converter.Amount != value)
                 {
-                    _converter.Amount = value;
+                    Converter.Amount = value;
                     OnPropertyChanged();
                     ConvertCommand.Execute(null);
                 }
@@ -81,7 +79,7 @@ namespace StylishCalculator.ViewModels
         /// </summary>
         public decimal ConvertedAmount
         {
-            get => _converter.ConvertedAmount;
+            get => Converter.ConvertedAmount;
         }
 
         /// <summary>
@@ -91,12 +89,20 @@ namespace StylishCalculator.ViewModels
         {
             get
             {
-                if (_converter.HasError)
+                System.Diagnostics.Debug.WriteLine($"ConversionResult getter called - HasError: {Converter.HasError}, Amount: {Amount}, ConvertedAmount: {ConvertedAmount}");
+                Console.WriteLine($"ConversionResult getter called - HasError: {Converter.HasError}, Amount: {Amount}, ConvertedAmount: {ConvertedAmount}");
+                
+                if (Converter.HasError)
                 {
-                    return $"Error: {_converter.ErrorMessage}";
+                    return $"Error: {Converter.ErrorMessage}";
                 }
                 
-                return $"{Amount} {FromCurrency} = {ConvertedAmount} {ToCurrency}";
+                if (FromCurrency == null || ToCurrency == null)
+                {
+                    return "Select currencies to convert";
+                }
+                
+                return $"{Amount:F2} {FromCurrency.Code} = {ConvertedAmount:F5} {ToCurrency.Code}";
             }
         }
 
@@ -107,12 +113,12 @@ namespace StylishCalculator.ViewModels
         {
             get
             {
-                if (_converter.LastUpdated == DateTime.MinValue)
+                if (Converter.LastUpdated == DateTime.MinValue)
                 {
                     return "Not updated yet";
                 }
                 
-                return $"Last updated: {_converter.LastUpdated:g}";
+                return $"Last updated: {Converter.LastUpdated:g}";
             }
         }
 
@@ -149,12 +155,16 @@ namespace StylishCalculator.ViewModels
         /// </summary>
         public CurrencyViewModel()
         {
+            System.Diagnostics.Debug.WriteLine("CurrencyViewModel constructor called");
+            Console.WriteLine("CurrencyViewModel constructor called");
+            
             // Initialize commands
             ConvertCommand = new RelayCommand(async _ => await ConvertAsync());
             SwapCurrenciesCommand = new RelayCommand(_ => SwapCurrencies());
-
-            // Load currencies
-            Task.Run(async () => await LoadCurrenciesAsync());
+            
+            // Trigger initial conversion
+            System.Diagnostics.Debug.WriteLine("Triggering initial conversion");
+            _ = Task.Run(async () => await ConvertAsync());
         }
 
         #endregion
@@ -169,7 +179,7 @@ namespace StylishCalculator.ViewModels
             try
             {
                 IsBusy = true;
-                await _converter.LoadCurrenciesAsync();
+                await Converter.LoadCurrenciesAsync();
                 OnPropertyChanged(nameof(AvailableCurrencies));
             }
             finally
@@ -185,8 +195,12 @@ namespace StylishCalculator.ViewModels
         {
             try
             {
+                System.Diagnostics.Debug.WriteLine("CurrencyViewModel.ConvertAsync called");
+                Console.WriteLine("CurrencyViewModel.ConvertAsync called");
                 IsBusy = true;
-                await _converter.ConvertAsync();
+                await Converter.ConvertAsync();
+                System.Diagnostics.Debug.WriteLine($"Conversion completed - Result: {ConvertedAmount}");
+                Console.WriteLine($"Conversion completed - Result: {ConvertedAmount}");
                 OnPropertyChanged(nameof(ConvertedAmount));
                 OnPropertyChanged(nameof(ConversionResult));
                 OnPropertyChanged(nameof(LastUpdated));
@@ -202,7 +216,7 @@ namespace StylishCalculator.ViewModels
         /// </summary>
         private void SwapCurrencies()
         {
-            string temp = FromCurrency;
+            CurrencyInfo temp = FromCurrency;
             FromCurrency = ToCurrency;
             ToCurrency = temp;
             

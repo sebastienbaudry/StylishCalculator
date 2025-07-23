@@ -28,3 +28,4 @@ C:\Users\sebas\Documents\StylishCalculator\obj\Debug\net6.0-windows\refint\Styli
 C:\Users\sebas\Documents\StylishCalculator\obj\Debug\net6.0-windows\StylishCalculator.pdb
 C:\Users\sebas\Documents\StylishCalculator\obj\Debug\net6.0-windows\StylishCalculator.genruntimeconfig.cache
 C:\Users\sebas\Documents\StylishCalculator\obj\Debug\net6.0-windows\ref\StylishCalculator.dll
+c:\Users\sebas\Documents\StylishCalculator\obj\Debug\net6.0-windows\StylishCalculator.sourcelink.json

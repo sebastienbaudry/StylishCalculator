@@ -1,0 +1,1070 @@
+2025-07-23 21:59:17.233 - CurrencyConverter constructor called
+2025-07-23 21:59:17.256 - Initialized 11 currencies
+2025-07-23 21:59:17.262 - InitializeDefaultRates() called
+2025-07-23 21:59:17.267 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 21:59:17.268 - USD rates added to cache: 11 rates
+2025-07-23 21:59:17.270 - EUR rates added to cache: 11 rates
+2025-07-23 21:59:17.271 - GBP rates added to cache: 11 rates
+2025-07-23 21:59:17.271 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 21:59:17.299 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:17.301 - GetExchangeRate called: USD -> EUR
+2025-07-23 21:59:17.301 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 21:59:17.739 - API Response received: 215 characters
+2025-07-23 21:59:17.766 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 21:59:17.767 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 21:59:17.767 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 21:59:17.767 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 21:59:17.767 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 21:59:17.768 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 21:59:17.768 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 21:59:17.768 - API rate: USD -> INR = 86,2451855217
+2025-07-23 21:59:17.768 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 21:59:17.768 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 21:59:17.768 - API rate: USD -> USD = 1
+2025-07-23 21:59:17.769 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 21:59:17.769 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 21:59:17.871 - Saved 3 base currencies to exchange_rates.json
+2025-07-23 21:59:17.978 - Fetching rates from API for EUR
+2025-07-23 21:59:18.055 - API Response received: 217 characters
+2025-07-23 21:59:18.056 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 21:59:18.056 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 21:59:18.056 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 21:59:18.056 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 21:59:18.057 - API rate: EUR -> EUR = 1
+2025-07-23 21:59:18.057 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 21:59:18.057 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 21:59:18.057 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 21:59:18.057 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 21:59:18.057 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 21:59:18.057 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 21:59:18.058 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.058 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.059 - Saved 3 base currencies to exchange_rates.json
+2025-07-23 21:59:18.165 - Fetching rates from API for GBP
+2025-07-23 21:59:18.239 - API Response received: 217 characters
+2025-07-23 21:59:18.239 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 21:59:18.240 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 21:59:18.240 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 21:59:18.240 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 21:59:18.240 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 21:59:18.240 - API rate: GBP -> GBP = 1
+2025-07-23 21:59:18.240 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 21:59:18.241 - API rate: GBP -> INR = 116,618446439
+2025-07-23 21:59:18.241 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 21:59:18.241 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 21:59:18.241 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 21:59:18.241 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.241 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.243 - Saved 3 base currencies to exchange_rates.json
+2025-07-23 21:59:18.364 - Fetching rates from API for JPY
+2025-07-23 21:59:18.411 - API Response received: 208 characters
+2025-07-23 21:59:18.411 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 21:59:18.412 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 21:59:18.412 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 21:59:18.412 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 21:59:18.412 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 21:59:18.412 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 21:59:18.412 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 21:59:18.413 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 21:59:18.413 - API rate: JPY -> JPY = 1
+2025-07-23 21:59:18.413 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 21:59:18.413 - API rate: JPY -> USD = 0,006812332
+2025-07-23 21:59:18.413 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 21:59:18.413 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 21:59:18.415 - Saved 4 base currencies to exchange_rates.json
+2025-07-23 21:59:18.524 - Fetching rates from API for CAD
+2025-07-23 21:59:18.578 - API Response received: 215 characters
+2025-07-23 21:59:18.578 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 21:59:18.578 - API rate: CAD -> CAD = 1
+2025-07-23 21:59:18.578 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 21:59:18.579 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 21:59:18.579 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 21:59:18.579 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 21:59:18.579 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 21:59:18.579 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 21:59:18.580 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 21:59:18.580 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 21:59:18.580 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 21:59:18.580 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.581 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.582 - Saved 5 base currencies to exchange_rates.json
+2025-07-23 21:59:18.695 - Fetching rates from API for AUD
+2025-07-23 21:59:18.750 - API Response received: 215 characters
+2025-07-23 21:59:18.750 - API rate: AUD -> AUD = 1
+2025-07-23 21:59:18.750 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 21:59:18.750 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 21:59:18.750 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 21:59:18.751 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 21:59:18.751 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 21:59:18.751 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 21:59:18.751 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 21:59:18.751 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 21:59:18.751 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 21:59:18.752 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 21:59:18.752 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.752 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 21:59:18.753 - Saved 6 base currencies to exchange_rates.json
+2025-07-23 21:59:19.954 - ConvertAsync called - Amount: 0
+2025-07-23 21:59:19.954 - GetExchangeRate called: USD -> EUR
+2025-07-23 21:59:19.955 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:25.785 - ConvertAsync called - Amount: 0
+2025-07-23 21:59:25.785 - GetExchangeRate called: USD -> GBP
+2025-07-23 21:59:25.785 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:27.560 - ConvertAsync called - Amount: 0
+2025-07-23 21:59:27.560 - GetExchangeRate called: USD -> AUD
+2025-07-23 21:59:27.560 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:29.263 - ConvertAsync called - Amount: 0
+2025-07-23 21:59:29.263 - GetExchangeRate called: USD -> INR
+2025-07-23 21:59:29.264 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:40.945 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:40.945 - GetExchangeRate called: USD -> INR
+2025-07-23 21:59:40.945 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:43.863 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:43.864 - GetExchangeRate called: USD -> USD
+2025-07-23 21:59:43.864 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:45.319 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:45.320 - GetExchangeRate called: USD -> EUR
+2025-07-23 21:59:45.320 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:46.936 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:46.936 - GetExchangeRate called: USD -> IDR
+2025-07-23 21:59:46.937 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:49.752 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:49.752 - GetExchangeRate called: EUR -> IDR
+2025-07-23 21:59:49.753 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 21:59:54.385 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:54.385 - Fetching rates from API for IDR
+2025-07-23 21:59:54.387 - ConvertAsync called - Amount: 1
+2025-07-23 21:59:54.387 - Fetching rates from API for IDR
+2025-07-23 21:59:54.440 - API Response received: 196 characters
+2025-07-23 21:59:54.440 - API rate: IDR -> AUD = 0,0000936614
+2025-07-23 21:59:54.441 - API rate: IDR -> CAD = 0,0000835128
+2025-07-23 21:59:54.441 - API rate: IDR -> CHF = 0,0000487322
+2025-07-23 21:59:54.441 - API rate: IDR -> CNY = 0,0004403609
+2025-07-23 21:59:54.441 - API rate: IDR -> EUR = 0,0000523038
+2025-07-23 21:59:54.441 - API rate: IDR -> GBP = 0,0000454075
+2025-07-23 21:59:54.441 - API rate: IDR -> IDR = 1
+2025-07-23 21:59:54.442 - API rate: IDR -> INR = 0,0052953518
+2025-07-23 21:59:54.442 - API rate: IDR -> JPY = 0,0090128916
+2025-07-23 21:59:54.442 - API rate: IDR -> RUB = 0,0048150333
+2025-07-23 21:59:54.442 - API rate: IDR -> USD = 0,0000613988
+2025-07-23 21:59:54.442 - API returned 11 real rates for IDR: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 21:59:54.442 - Final rates for IDR: 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 21:59:54.444 - Saved 7 base currencies to exchange_rates.json
+2025-07-23 21:59:54.444 - GetExchangeRate called: IDR -> EUR
+2025-07-23 21:59:54.445 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 21:59:54.488 - API Response received: 196 characters
+2025-07-23 21:59:54.489 - API rate: IDR -> AUD = 0,0000936614
+2025-07-23 21:59:54.489 - API rate: IDR -> CAD = 0,0000835128
+2025-07-23 21:59:54.489 - API rate: IDR -> CHF = 0,0000487322
+2025-07-23 21:59:54.489 - API rate: IDR -> CNY = 0,0004403609
+2025-07-23 21:59:54.489 - API rate: IDR -> EUR = 0,0000523038
+2025-07-23 21:59:54.489 - API rate: IDR -> GBP = 0,0000454075
+2025-07-23 21:59:54.490 - API rate: IDR -> IDR = 1
+2025-07-23 21:59:54.490 - API rate: IDR -> INR = 0,0052953518
+2025-07-23 21:59:54.490 - API rate: IDR -> JPY = 0,0090128916
+2025-07-23 21:59:54.490 - API rate: IDR -> RUB = 0,0048150333
+2025-07-23 21:59:54.490 - API rate: IDR -> USD = 0,0000613988
+2025-07-23 21:59:54.490 - API returned 11 real rates for IDR: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 21:59:54.490 - Final rates for IDR: 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 21:59:54.492 - Saved 7 base currencies to exchange_rates.json
+2025-07-23 21:59:54.492 - GetExchangeRate called: IDR -> EUR
+2025-07-23 21:59:54.492 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:00:58.492 - ConvertAsync called - Amount: 1
+2025-07-23 22:00:58.492 - GetExchangeRate called: IDR -> CAD
+2025-07-23 22:00:58.492 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:05.176 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:05.176 - GetExchangeRate called: IDR -> USD
+2025-07-23 22:01:05.176 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:06.848 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:06.849 - GetExchangeRate called: USD -> USD
+2025-07-23 22:01:06.849 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:08.199 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:08.199 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:01:08.200 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:09.408 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:09.408 - GetExchangeRate called: USD -> CHF
+2025-07-23 22:01:09.408 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:11.576 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:11.576 - GetExchangeRate called: EUR -> CHF
+2025-07-23 22:01:11.576 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:12.864 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:12.864 - GetExchangeRate called: EUR -> CNY
+2025-07-23 22:01:12.864 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:14.199 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:14.200 - GetExchangeRate called: EUR -> GBP
+2025-07-23 22:01:14.200 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:15.512 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:15.513 - GetExchangeRate called: EUR -> RUB
+2025-07-23 22:01:15.513 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:17.536 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:17.536 - GetExchangeRate called: GBP -> RUB
+2025-07-23 22:01:17.536 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:18.824 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:18.824 - GetExchangeRate called: GBP -> CAD
+2025-07-23 22:01:18.824 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:21.984 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:21.984 - GetExchangeRate called: GBP -> RUB
+2025-07-23 22:01:21.984 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:24.071 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:24.072 - GetExchangeRate called: JPY -> RUB
+2025-07-23 22:01:24.072 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:25.944 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:25.944 - GetExchangeRate called: JPY -> USD
+2025-07-23 22:01:25.944 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:27.719 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:27.720 - GetExchangeRate called: JPY -> CHF
+2025-07-23 22:01:27.720 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:01:29.999 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:30.000 - Fetching rates from API for CNY
+2025-07-23 22:01:30.114 - API Response received: 214 characters
+2025-07-23 22:01:30.115 - API rate: CNY -> AUD = 0,2126924301
+2025-07-23 22:01:30.116 - API rate: CNY -> CAD = 0,1896463212
+2025-07-23 22:01:30.116 - API rate: CNY -> CHF = 0,1106643142
+2025-07-23 22:01:30.116 - API rate: CNY -> CNY = 1
+2025-07-23 22:01:30.116 - API rate: CNY -> EUR = 0,1187748681
+2025-07-23 22:01:30.116 - API rate: CNY -> GBP = 0,1031142704
+2025-07-23 22:01:30.117 - API rate: CNY -> IDR = 2270,8644386839
+2025-07-23 22:01:30.117 - API rate: CNY -> INR = 12,0250260247
+2025-07-23 22:01:30.117 - API rate: CNY -> JPY = 20,4670550242
+2025-07-23 22:01:30.117 - API rate: CNY -> RUB = 10,9342879764
+2025-07-23 22:01:30.117 - API rate: CNY -> USD = 0,1394283745
+2025-07-23 22:01:30.117 - API returned 11 real rates for CNY: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:01:30.117 - Final rates for CNY: 11 currencies: CNY, AUD, CAD, CHF, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:01:30.119 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:01:30.119 - GetExchangeRate called: CNY -> CHF
+2025-07-23 22:01:30.119 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:31.576 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:31.576 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:31.576 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:46.368 - ConvertAsync called - Amount: 0
+2025-07-23 22:01:46.369 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:46.369 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:47.984 - ConvertAsync called - Amount: 3
+2025-07-23 22:01:47.985 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:47.985 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:49.033 - ConvertAsync called - Amount: 0
+2025-07-23 22:01:49.034 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:49.034 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:49.976 - ConvertAsync called - Amount: 1
+2025-07-23 22:01:49.977 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:49.977 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:50.536 - ConvertAsync called - Amount: 10
+2025-07-23 22:01:50.537 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:50.537 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:51.248 - ConvertAsync called - Amount: 100
+2025-07-23 22:01:51.249 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:51.249 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:52.512 - ConvertAsync called - Amount: 1000
+2025-07-23 22:01:52.513 - GetExchangeRate called: CNY -> JPY
+2025-07-23 22:01:52.513 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:01:58.617 - ConvertAsync called - Amount: 1000
+2025-07-23 22:01:58.617 - GetExchangeRate called: IDR -> JPY
+2025-07-23 22:01:58.617 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:01.184 - ConvertAsync called - Amount: 1000
+2025-07-23 22:02:01.184 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:01.184 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:04.904 - ConvertAsync called - Amount: 10000
+2025-07-23 22:02:04.905 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:04.905 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:06.450 - ConvertAsync called - Amount: 100000
+2025-07-23 22:02:06.451 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:06.451 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:07.401 - ConvertAsync called - Amount: 1000000
+2025-07-23 22:02:07.402 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:07.402 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:08.376 - ConvertAsync called - Amount: 10000000
+2025-07-23 22:02:08.377 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:08.377 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:11.449 - ConvertAsync called - Amount: 1000000
+2025-07-23 22:02:11.449 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:11.450 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:11.976 - ConvertAsync called - Amount: 100000
+2025-07-23 22:02:11.977 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:11.977 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:12.632 - ConvertAsync called - Amount: 10000
+2025-07-23 22:02:12.633 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:12.633 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:21.528 - ConvertAsync called - Amount: 10000
+2025-07-23 22:02:21.529 - GetExchangeRate called: EUR -> EUR
+2025-07-23 22:02:21.530 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:24.144 - ConvertAsync called - Amount: 10000
+2025-07-23 22:02:24.144 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:24.144 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:26.745 - ConvertAsync called - Amount: 1000
+2025-07-23 22:02:26.745 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:26.746 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:27.281 - ConvertAsync called - Amount: 100
+2025-07-23 22:02:27.281 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:27.281 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:28.041 - ConvertAsync called - Amount: 10
+2025-07-23 22:02:28.041 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:28.041 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:28.304 - ConvertAsync called - Amount: 1
+2025-07-23 22:02:28.304 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:28.305 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:28.801 - ConvertAsync called - Amount: 0
+2025-07-23 22:02:28.801 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:28.801 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:31.721 - ConvertAsync called - Amount: 1
+2025-07-23 22:02:31.721 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:02:31.722 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:46.280 - ConvertAsync called - Amount: 1
+2025-07-23 22:02:46.280 - GetExchangeRate called: IDR -> IDR
+2025-07-23 22:02:46.280 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:48.000 - ConvertAsync called - Amount: 1
+2025-07-23 22:02:48.000 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:48.000 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:51.072 - ConvertAsync called - Amount: 10
+2025-07-23 22:02:51.072 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:51.073 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:51.800 - ConvertAsync called - Amount: 100
+2025-07-23 22:02:51.801 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:51.801 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:52.384 - ConvertAsync called - Amount: 1000
+2025-07-23 22:02:52.385 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:52.385 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:52.808 - ConvertAsync called - Amount: 10000
+2025-07-23 22:02:52.809 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:52.809 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:53.033 - ConvertAsync called - Amount: 100000
+2025-07-23 22:02:53.033 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:53.033 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:53.272 - ConvertAsync called - Amount: 1000000
+2025-07-23 22:02:53.273 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:53.273 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:53.465 - ConvertAsync called - Amount: 10000000
+2025-07-23 22:02:53.465 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:53.465 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:02:53.649 - ConvertAsync called - Amount: 100000000
+2025-07-23 22:02:53.649 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:02:53.649 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:29.481 - ConvertAsync called - Amount: 0
+2025-07-23 22:03:29.481 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:29.481 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:31.736 - ConvertAsync called - Amount: 1
+2025-07-23 22:03:31.737 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:31.737 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:32.136 - ConvertAsync called - Amount: 10
+2025-07-23 22:03:32.137 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:32.137 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:32.328 - ConvertAsync called - Amount: 100
+2025-07-23 22:03:32.329 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:32.329 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:32.777 - ConvertAsync called - Amount: 1000
+2025-07-23 22:03:32.777 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:32.777 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:33.369 - ConvertAsync called - Amount: 10000
+2025-07-23 22:03:33.369 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:33.369 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:34.001 - ConvertAsync called - Amount: 100000
+2025-07-23 22:03:34.001 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:34.001 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:03:37.472 - ConvertAsync called - Amount: 10000
+2025-07-23 22:03:37.473 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:03:37.473 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:24.321 - ConvertAsync called - Amount: 10000
+2025-07-23 22:04:24.321 - GetExchangeRate called: EUR -> EUR
+2025-07-23 22:04:24.322 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:24.322 - ConvertAsync called - Amount: 10000
+2025-07-23 22:04:24.323 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:04:24.323 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:26.792 - ConvertAsync called - Amount: 1000
+2025-07-23 22:04:26.792 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:04:26.793 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:26.944 - ConvertAsync called - Amount: 100
+2025-07-23 22:04:26.945 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:04:26.945 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:27.481 - ConvertAsync called - Amount: 10
+2025-07-23 22:04:27.481 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:04:27.481 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:04:28.097 - ConvertAsync called - Amount: 1
+2025-07-23 22:04:28.098 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:04:28.098 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:06:44.021 - CurrencyConverter constructor called
+2025-07-23 22:06:44.038 - Initialized 11 currencies
+2025-07-23 22:06:44.040 - InitializeDefaultRates() called
+2025-07-23 22:06:44.044 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:06:44.044 - USD rates added to cache: 11 rates
+2025-07-23 22:06:44.049 - EUR rates added to cache: 11 rates
+2025-07-23 22:06:44.049 - GBP rates added to cache: 11 rates
+2025-07-23 22:06:44.049 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:06:44.055 - ConvertAsync called - Amount: 1
+2025-07-23 22:06:44.057 - Fetching rates from API for USD
+2025-07-23 22:06:44.057 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:06:44.057 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:06:44.101 - Loaded 8 base currencies from exchange_rates.json
+2025-07-23 22:06:44.102 - File rates timestamp: 2025-07-23 22:01:30
+2025-07-23 22:06:44.380 - API Response received: 215 characters
+2025-07-23 22:06:44.381 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:06:44.381 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:06:44.381 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:06:44.382 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:06:44.382 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:06:44.382 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:06:44.382 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:06:44.382 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:06:44.382 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:06:44.383 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:06:44.383 - API rate: USD -> USD = 1
+2025-07-23 22:06:44.383 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:06:44.383 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:06:44.398 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:44.510 - Fetching rates from API for EUR
+2025-07-23 22:06:44.587 - API Response received: 217 characters
+2025-07-23 22:06:44.588 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:06:44.588 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:06:44.588 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:06:44.588 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:06:44.588 - API rate: EUR -> EUR = 1
+2025-07-23 22:06:44.589 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:06:44.589 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:06:44.589 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:06:44.589 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:06:44.589 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:06:44.590 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:06:44.590 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:44.590 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:44.591 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:44.699 - Fetching rates from API for GBP
+2025-07-23 22:06:44.755 - API Response received: 217 characters
+2025-07-23 22:06:44.755 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:06:44.755 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:06:44.756 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:06:44.756 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:06:44.756 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:06:44.756 - API rate: GBP -> GBP = 1
+2025-07-23 22:06:44.756 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:06:44.756 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:06:44.757 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:06:44.757 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:06:44.757 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:06:44.757 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:44.757 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:44.758 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:44.870 - Fetching rates from API for JPY
+2025-07-23 22:06:44.935 - API Response received: 208 characters
+2025-07-23 22:06:44.935 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:06:44.935 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:06:44.936 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:06:44.936 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:06:44.936 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:06:44.936 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:06:44.937 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:06:44.937 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:06:44.937 - API rate: JPY -> JPY = 1
+2025-07-23 22:06:44.937 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:06:44.937 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:06:44.938 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:06:44.938 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:06:44.939 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:45.057 - Fetching rates from API for CAD
+2025-07-23 22:06:45.107 - API Response received: 215 characters
+2025-07-23 22:06:45.107 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:06:45.107 - API rate: CAD -> CAD = 1
+2025-07-23 22:06:45.107 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:06:45.108 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:06:45.108 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:06:45.108 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:06:45.108 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:06:45.108 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:06:45.109 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:06:45.109 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:06:45.109 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:06:45.109 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:45.109 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:45.110 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:45.214 - Fetching rates from API for AUD
+2025-07-23 22:06:45.269 - API Response received: 215 characters
+2025-07-23 22:06:45.269 - API rate: AUD -> AUD = 1
+2025-07-23 22:06:45.269 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:06:45.270 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:06:45.270 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:06:45.270 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:06:45.270 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:06:45.270 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:06:45.270 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:06:45.271 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:06:45.271 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:06:45.271 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:06:45.271 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:45.271 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:06:45.272 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:06:46.170 - ConvertAsync called - Amount: 0
+2025-07-23 22:06:46.171 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:06:46.171 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:06:49.129 - ConvertAsync called - Amount: 1
+2025-07-23 22:06:49.129 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:06:49.130 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:06:57.504 - ConvertAsync called - Amount: 1
+2025-07-23 22:06:57.504 - GetExchangeRate called: USD -> IDR
+2025-07-23 22:06:57.504 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:06:59.736 - ConvertAsync called - Amount: 1
+2025-07-23 22:06:59.736 - GetExchangeRate called: EUR -> IDR
+2025-07-23 22:06:59.737 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:05.457 - ConvertAsync called - Amount: 1
+2025-07-23 22:07:05.458 - GetExchangeRate called: IDR -> IDR
+2025-07-23 22:07:05.458 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:05.459 - ConvertAsync called - Amount: 1
+2025-07-23 22:07:05.459 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:05.459 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:11.425 - ConvertAsync called - Amount: 10
+2025-07-23 22:07:11.425 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:11.425 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:12.432 - ConvertAsync called - Amount: 100
+2025-07-23 22:07:12.432 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:12.433 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:12.705 - ConvertAsync called - Amount: 1000
+2025-07-23 22:07:12.706 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:12.706 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:14.440 - ConvertAsync called - Amount: 10000
+2025-07-23 22:07:14.440 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:14.441 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:22.728 - ConvertAsync called - Amount: 0
+2025-07-23 22:07:22.729 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:22.729 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:24.152 - ConvertAsync called - Amount: 1
+2025-07-23 22:07:24.153 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:24.153 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:25.008 - ConvertAsync called - Amount: 10
+2025-07-23 22:07:25.009 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:25.009 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:25.616 - ConvertAsync called - Amount: 100
+2025-07-23 22:07:25.617 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:25.617 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:26.281 - ConvertAsync called - Amount: 1000
+2025-07-23 22:07:26.281 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:26.282 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:07:26.696 - ConvertAsync called - Amount: 10000
+2025-07-23 22:07:26.697 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:07:26.697 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:09:39.458 - CurrencyConverter constructor called
+2025-07-23 22:09:39.475 - Initialized 11 currencies
+2025-07-23 22:09:39.477 - InitializeDefaultRates() called
+2025-07-23 22:09:39.481 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:09:39.482 - USD rates added to cache: 11 rates
+2025-07-23 22:09:39.484 - EUR rates added to cache: 11 rates
+2025-07-23 22:09:39.484 - GBP rates added to cache: 11 rates
+2025-07-23 22:09:39.485 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:09:39.492 - ConvertAsync called - Amount: 1
+2025-07-23 22:09:39.494 - Fetching rates from API for USD
+2025-07-23 22:09:39.494 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:09:39.495 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:09:39.533 - Loaded 8 base currencies from exchange_rates.json
+2025-07-23 22:09:39.533 - File rates timestamp: 2025-07-23 22:06:45
+2025-07-23 22:09:39.776 - API Response received: 215 characters
+2025-07-23 22:09:39.776 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:09:39.776 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:09:39.776 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:09:39.777 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:09:39.777 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:09:39.777 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:09:39.777 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:09:39.777 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:09:39.778 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:09:39.778 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:09:39.778 - API rate: USD -> USD = 1
+2025-07-23 22:09:39.778 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:09:39.778 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:09:39.795 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:09:39.904 - Fetching rates from API for EUR
+2025-07-23 22:09:39.967 - API Response received: 217 characters
+2025-07-23 22:09:39.967 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:09:39.968 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:09:39.968 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:09:39.968 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:09:39.968 - API rate: EUR -> EUR = 1
+2025-07-23 22:09:39.968 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:09:39.969 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:09:39.969 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:09:39.969 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:09:39.969 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:09:39.969 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:09:39.970 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:39.970 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:39.971 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:09:40.092 - Fetching rates from API for GBP
+2025-07-23 22:09:40.137 - API Response received: 217 characters
+2025-07-23 22:09:40.138 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:09:40.138 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:09:40.139 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:09:40.139 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:09:40.140 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:09:40.140 - API rate: GBP -> GBP = 1
+2025-07-23 22:09:40.141 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:09:40.141 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:09:40.141 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:09:40.142 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:09:40.142 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:09:40.143 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.143 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.145 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:09:40.248 - Fetching rates from API for JPY
+2025-07-23 22:09:40.301 - API Response received: 208 characters
+2025-07-23 22:09:40.301 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:09:40.301 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:09:40.301 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:09:40.302 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:09:40.302 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:09:40.302 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:09:40.302 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:09:40.302 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:09:40.302 - API rate: JPY -> JPY = 1
+2025-07-23 22:09:40.303 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:09:40.303 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:09:40.303 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:09:40.303 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:09:40.304 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:09:40.406 - Fetching rates from API for CAD
+2025-07-23 22:09:40.449 - API Response received: 215 characters
+2025-07-23 22:09:40.450 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:09:40.450 - API rate: CAD -> CAD = 1
+2025-07-23 22:09:40.451 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:09:40.451 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:09:40.452 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:09:40.452 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:09:40.453 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:09:40.453 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:09:40.454 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:09:40.454 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:09:40.455 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:09:40.455 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.456 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.459 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:09:40.577 - Fetching rates from API for AUD
+2025-07-23 22:09:40.643 - API Response received: 215 characters
+2025-07-23 22:09:40.643 - API rate: AUD -> AUD = 1
+2025-07-23 22:09:40.644 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:09:40.644 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:09:40.644 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:09:40.644 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:09:40.645 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:09:40.645 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:09:40.645 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:09:40.645 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:09:40.645 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:09:40.646 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:09:40.646 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.646 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:09:40.647 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:46.457 - CurrencyConverter constructor called
+2025-07-23 22:10:46.472 - Initialized 11 currencies
+2025-07-23 22:10:46.474 - InitializeDefaultRates() called
+2025-07-23 22:10:46.480 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:10:46.480 - USD rates added to cache: 11 rates
+2025-07-23 22:10:46.483 - EUR rates added to cache: 11 rates
+2025-07-23 22:10:46.483 - GBP rates added to cache: 11 rates
+2025-07-23 22:10:46.483 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:10:46.489 - ConvertAsync called - Amount: 1
+2025-07-23 22:10:46.490 - Fetching rates from API for USD
+2025-07-23 22:10:46.495 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:10:46.495 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:10:46.549 - Loaded 8 base currencies from exchange_rates.json
+2025-07-23 22:10:46.549 - File rates timestamp: 2025-07-23 22:09:40
+2025-07-23 22:10:46.808 - API Response received: 215 characters
+2025-07-23 22:10:46.809 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:10:46.809 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:10:46.809 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:10:46.810 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:10:46.810 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:10:46.810 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:10:46.810 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:10:46.810 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:10:46.810 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:10:46.811 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:10:46.811 - API rate: USD -> USD = 1
+2025-07-23 22:10:46.811 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:10:46.811 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:10:46.827 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:46.930 - Fetching rates from API for EUR
+2025-07-23 22:10:46.994 - API Response received: 217 characters
+2025-07-23 22:10:46.995 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:10:46.995 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:10:46.995 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:10:46.996 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:10:46.996 - API rate: EUR -> EUR = 1
+2025-07-23 22:10:46.996 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:10:46.996 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:10:46.996 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:10:46.996 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:10:46.996 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:10:46.997 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:10:46.997 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:46.997 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:46.998 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:47.105 - Fetching rates from API for GBP
+2025-07-23 22:10:47.150 - API Response received: 217 characters
+2025-07-23 22:10:47.150 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:10:47.150 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:10:47.151 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:10:47.151 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:10:47.151 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:10:47.151 - API rate: GBP -> GBP = 1
+2025-07-23 22:10:47.152 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:10:47.152 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:10:47.152 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:10:47.152 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:10:47.152 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:10:47.153 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.153 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.154 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:47.261 - Fetching rates from API for JPY
+2025-07-23 22:10:47.305 - API Response received: 208 characters
+2025-07-23 22:10:47.305 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:10:47.306 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:10:47.306 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:10:47.306 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:10:47.306 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:10:47.306 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:10:47.307 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:10:47.307 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:10:47.307 - API rate: JPY -> JPY = 1
+2025-07-23 22:10:47.307 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:10:47.307 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:10:47.307 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:10:47.308 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:10:47.309 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:47.417 - Fetching rates from API for CAD
+2025-07-23 22:10:47.461 - API Response received: 215 characters
+2025-07-23 22:10:47.462 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:10:47.462 - API rate: CAD -> CAD = 1
+2025-07-23 22:10:47.462 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:10:47.462 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:10:47.462 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:10:47.463 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:10:47.463 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:10:47.463 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:10:47.463 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:10:47.463 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:10:47.463 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:10:47.464 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.464 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.465 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:47.575 - Fetching rates from API for AUD
+2025-07-23 22:10:47.645 - API Response received: 215 characters
+2025-07-23 22:10:47.646 - API rate: AUD -> AUD = 1
+2025-07-23 22:10:47.646 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:10:47.646 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:10:47.646 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:10:47.646 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:10:47.646 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:10:47.647 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:10:47.647 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:10:47.647 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:10:47.647 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:10:47.647 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:10:47.647 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.648 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:10:47.649 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:10:55.762 - ConvertAsync called - Amount: 1
+2025-07-23 22:10:55.762 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:10:55.762 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:14:37.750 - CurrencyConverter constructor called
+2025-07-23 22:14:37.766 - Initialized 11 currencies
+2025-07-23 22:14:37.767 - InitializeDefaultRates() called
+2025-07-23 22:14:37.773 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:14:37.773 - USD rates added to cache: 11 rates
+2025-07-23 22:14:37.776 - EUR rates added to cache: 11 rates
+2025-07-23 22:14:37.776 - GBP rates added to cache: 11 rates
+2025-07-23 22:14:37.776 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:14:37.783 - Fetching rates from API for USD
+2025-07-23 22:14:37.781 - ConvertAsync called - Amount: 1
+2025-07-23 22:14:37.797 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:14:37.799 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:14:37.799 - Found rates for USD, contains 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:14:37.800 - Direct rate found: USD -> EUR = 0,91
+2025-07-23 22:14:37.801 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,91
+2025-07-23 22:14:37.803 - Exchange rate USD to EUR: 0,91
+2025-07-23 22:14:37.803 - Conversion result: 1 * 0,91 = 0,91
+2025-07-23 22:14:37.804 - FINAL CONVERSION: 1 USD = 0,91 EUR
+2025-07-23 22:14:37.830 - Loaded 8 base currencies from exchange_rates.json
+2025-07-23 22:14:37.830 - File rates timestamp: 2025-07-23 22:10:47
+2025-07-23 22:14:38.112 - API Response received: 215 characters
+2025-07-23 22:14:38.112 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:14:38.113 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:14:38.113 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:14:38.113 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:14:38.113 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:14:38.113 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:14:38.114 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:14:38.114 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:14:38.114 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:14:38.114 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:14:38.114 - API rate: USD -> USD = 1
+2025-07-23 22:14:38.115 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:14:38.115 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:14:38.129 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:38.242 - Fetching rates from API for EUR
+2025-07-23 22:14:38.293 - API Response received: 217 characters
+2025-07-23 22:14:38.293 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:14:38.293 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:14:38.294 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:14:38.294 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:14:38.294 - API rate: EUR -> EUR = 1
+2025-07-23 22:14:38.294 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:14:38.294 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:14:38.295 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:14:38.295 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:14:38.295 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:14:38.295 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:14:38.295 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.296 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.297 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:38.420 - Fetching rates from API for GBP
+2025-07-23 22:14:38.489 - API Response received: 217 characters
+2025-07-23 22:14:38.489 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:14:38.489 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:14:38.490 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:14:38.490 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:14:38.490 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:14:38.490 - API rate: GBP -> GBP = 1
+2025-07-23 22:14:38.491 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:14:38.491 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:14:38.491 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:14:38.491 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:14:38.491 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:14:38.492 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.492 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.493 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:38.606 - Fetching rates from API for JPY
+2025-07-23 22:14:38.654 - API Response received: 208 characters
+2025-07-23 22:14:38.654 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:14:38.654 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:14:38.654 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:14:38.655 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:14:38.655 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:14:38.655 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:14:38.655 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:14:38.655 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:14:38.656 - API rate: JPY -> JPY = 1
+2025-07-23 22:14:38.656 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:14:38.656 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:14:38.656 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:14:38.657 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:14:38.658 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:38.778 - Fetching rates from API for CAD
+2025-07-23 22:14:38.835 - API Response received: 215 characters
+2025-07-23 22:14:38.836 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:14:38.836 - API rate: CAD -> CAD = 1
+2025-07-23 22:14:38.836 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:14:38.836 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:14:38.836 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:14:38.836 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:14:38.836 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:14:38.837 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:14:38.837 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:14:38.837 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:14:38.837 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:14:38.837 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.837 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:38.839 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:38.949 - Fetching rates from API for AUD
+2025-07-23 22:14:38.998 - API Response received: 215 characters
+2025-07-23 22:14:38.998 - API rate: AUD -> AUD = 1
+2025-07-23 22:14:38.998 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:14:38.998 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:14:38.999 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:14:38.999 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:14:38.999 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:14:38.999 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:14:38.999 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:14:39.000 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:14:39.000 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:14:39.000 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:14:39.000 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:39.000 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:14:39.001 - Saved 8 base currencies to exchange_rates.json
+2025-07-23 22:14:45.377 - ConvertAsync called - Amount: 1
+2025-07-23 22:14:45.377 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:14:45.377 - Cache contains 8 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR, CNY
+2025-07-23 22:14:45.378 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:14:45.378 - Direct rate found: IDR -> EUR = 0,0001
+2025-07-23 22:14:45.378 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0001
+2025-07-23 22:14:45.378 - Exchange rate IDR to EUR: 0,0001
+2025-07-23 22:14:45.379 - Conversion result: 1 * 0,0001 = 0,0001
+2025-07-23 22:14:45.379 - FINAL CONVERSION: 1 IDR = 0,0001 EUR
+2025-07-23 22:16:25.936 - CurrencyConverter constructor called
+2025-07-23 22:16:25.949 - Initialized 11 currencies
+2025-07-23 22:16:25.951 - InitializeDefaultRates() called
+2025-07-23 22:16:25.956 - USD rates dictionary created with 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:16:25.956 - USD rates added to cache: 11 rates
+2025-07-23 22:16:25.960 - EUR rates added to cache: 11 rates
+2025-07-23 22:16:25.961 - GBP rates added to cache: 11 rates
+2025-07-23 22:16:25.962 - Default rates initialization completed. Total cache entries: 3
+2025-07-23 22:16:25.998 - Fetching rates from API for USD
+2025-07-23 22:16:26.003 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:26.006 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:16:26.007 - Cache contains 3 base currencies: USD, EUR, GBP
+2025-07-23 22:16:26.007 - Found rates for USD, contains 11 currencies: USD, EUR, GBP, JPY, CAD, AUD, CHF, CNY, INR, RUB, IDR
+2025-07-23 22:16:26.010 - Direct rate found: USD -> EUR = 0,91
+2025-07-23 22:16:26.011 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,91
+2025-07-23 22:16:26.012 - Exchange rate USD to EUR: 0,91
+2025-07-23 22:16:26.012 - Conversion result: 1 * 0,91 = 0,91
+2025-07-23 22:16:26.012 - FINAL CONVERSION: 1 USD = 0,91 EUR
+2025-07-23 22:16:26.496 - API Response received: 215 characters
+2025-07-23 22:16:26.501 - API rate: USD -> AUD = 1,5254601577
+2025-07-23 22:16:26.501 - API rate: USD -> CAD = 1,3601702086
+2025-07-23 22:16:26.501 - API rate: USD -> CHF = 0,7937000958
+2025-07-23 22:16:26.502 - API rate: USD -> CNY = 7,1721412781
+2025-07-23 22:16:26.502 - API rate: USD -> EUR = 0,8518701346
+2025-07-23 22:16:26.502 - API rate: USD -> GBP = 0,7395501154
+2025-07-23 22:16:26.502 - API rate: USD -> IDR = 16286,960577654
+2025-07-23 22:16:26.502 - API rate: USD -> INR = 86,2451855217
+2025-07-23 22:16:26.503 - API rate: USD -> JPY = 146,7926101804
+2025-07-23 22:16:26.503 - API rate: USD -> RUB = 78,4222581422
+2025-07-23 22:16:26.503 - API rate: USD -> USD = 1
+2025-07-23 22:16:26.503 - API returned 11 real rates for USD: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:16:26.503 - Final rates for USD: 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:16:26.532 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:26.644 - Fetching rates from API for EUR
+2025-07-23 22:16:26.707 - API Response received: 217 characters
+2025-07-23 22:16:26.707 - API rate: EUR -> AUD = 1,7907191434
+2025-07-23 22:16:26.707 - API rate: EUR -> CAD = 1,5966872806
+2025-07-23 22:16:26.708 - API rate: EUR -> CHF = 0,9317148983
+2025-07-23 22:16:26.708 - API rate: EUR -> CNY = 8,4192894982
+2025-07-23 22:16:26.708 - API rate: EUR -> EUR = 1
+2025-07-23 22:16:26.708 - API rate: EUR -> GBP = 0,8681488943
+2025-07-23 22:16:26.708 - API rate: EUR -> IDR = 19119,0651205323
+2025-07-23 22:16:26.708 - API rate: EUR -> INR = 101,2421753255
+2025-07-23 22:16:26.709 - API rate: EUR -> JPY = 172,3180614253
+2025-07-23 22:16:26.709 - API rate: EUR -> RUB = 92,0589359304
+2025-07-23 22:16:26.709 - API rate: EUR -> USD = 1,1738878491
+2025-07-23 22:16:26.709 - API returned 11 real rates for EUR: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:26.709 - Final rates for EUR: 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:26.710 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:26.817 - Fetching rates from API for GBP
+2025-07-23 22:16:26.867 - API Response received: 217 characters
+2025-07-23 22:16:26.867 - API rate: GBP -> AUD = 2,0626866604
+2025-07-23 22:16:26.867 - API rate: GBP -> CAD = 1,8391859866
+2025-07-23 22:16:26.867 - API rate: GBP -> CHF = 1,0732201635
+2025-07-23 22:16:26.868 - API rate: GBP -> CNY = 9,6979787154
+2025-07-23 22:16:26.868 - API rate: GBP -> EUR = 1,1518761432
+2025-07-23 22:16:26.868 - API rate: GBP -> GBP = 1
+2025-07-23 22:16:26.868 - API rate: GBP -> IDR = 22022,7949918511
+2025-07-23 22:16:26.868 - API rate: GBP -> INR = 116,618446439
+2025-07-23 22:16:26.868 - API rate: GBP -> JPY = 198,4890639913
+2025-07-23 22:16:26.868 - API rate: GBP -> RUB = 106,0404920629
+2025-07-23 22:16:26.869 - API rate: GBP -> USD = 1,3521734081
+2025-07-23 22:16:26.869 - API returned 11 real rates for GBP: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:26.869 - Final rates for GBP: 11 currencies: GBP, AUD, CAD, CHF, CNY, EUR, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:26.870 - Saved 3 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:26.976 - Fetching rates from API for JPY
+2025-07-23 22:16:27.023 - API Response received: 208 characters
+2025-07-23 22:16:27.024 - API rate: JPY -> AUD = 0,0103919411
+2025-07-23 22:16:27.024 - API rate: JPY -> CAD = 0,0092659311
+2025-07-23 22:16:27.024 - API rate: JPY -> CHF = 0,0054069486
+2025-07-23 22:16:27.024 - API rate: JPY -> CNY = 0,0488590077
+2025-07-23 22:16:27.024 - API rate: JPY -> EUR = 0,0058032222
+2025-07-23 22:16:27.024 - API rate: JPY -> GBP = 0,0050380609
+2025-07-23 22:16:27.025 - API rate: JPY -> IDR = 110,9521832035
+2025-07-23 22:16:27.025 - API rate: JPY -> INR = 0,5875308397
+2025-07-23 22:16:27.025 - API rate: JPY -> JPY = 1
+2025-07-23 22:16:27.025 - API rate: JPY -> RUB = 0,534238461
+2025-07-23 22:16:27.025 - API rate: JPY -> USD = 0,006812332
+2025-07-23 22:16:27.025 - API returned 11 real rates for JPY: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:16:27.026 - Final rates for JPY: 11 currencies: JPY, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, RUB, USD
+2025-07-23 22:16:27.027 - Saved 4 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:27.133 - Fetching rates from API for CAD
+2025-07-23 22:16:27.185 - API Response received: 215 characters
+2025-07-23 22:16:27.185 - API rate: CAD -> AUD = 1,1215215185
+2025-07-23 22:16:27.185 - API rate: CAD -> CAD = 1
+2025-07-23 22:16:27.186 - API rate: CAD -> CHF = 0,5835299809
+2025-07-23 22:16:27.186 - API rate: CAD -> CNY = 5,2729733623
+2025-07-23 22:16:27.186 - API rate: CAD -> EUR = 0,6262967158
+2025-07-23 22:16:27.186 - API rate: CAD -> GBP = 0,5437188013
+2025-07-23 22:16:27.186 - API rate: CAD -> IDR = 11974,2076945046
+2025-07-23 22:16:27.186 - API rate: CAD -> INR = 63,4076419086
+2025-07-23 22:16:27.187 - API rate: CAD -> JPY = 107,9222359468
+2025-07-23 22:16:27.187 - API rate: CAD -> RUB = 57,656209235
+2025-07-23 22:16:27.187 - API rate: CAD -> USD = 0,7352021046
+2025-07-23 22:16:27.187 - API returned 11 real rates for CAD: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:27.187 - Final rates for CAD: 11 currencies: CAD, AUD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:27.188 - Saved 5 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:27.308 - Fetching rates from API for AUD
+2025-07-23 22:16:27.381 - API Response received: 215 characters
+2025-07-23 22:16:27.381 - API rate: AUD -> AUD = 1
+2025-07-23 22:16:27.382 - API rate: AUD -> CAD = 0,8916458432
+2025-07-23 22:16:27.382 - API rate: AUD -> CHF = 0,5203020818
+2025-07-23 22:16:27.382 - API rate: AUD -> CNY = 4,7016247798
+2025-07-23 22:16:27.382 - API rate: AUD -> EUR = 0,5584348633
+2025-07-23 22:16:27.382 - API rate: AUD -> GBP = 0,4848046091
+2025-07-23 22:16:27.382 - API rate: AUD -> IDR = 10676,7525165721
+2025-07-23 22:16:27.383 - API rate: AUD -> INR = 56,5371603358
+2025-07-23 22:16:27.383 - API rate: AUD -> JPY = 96,2284130722
+2025-07-23 22:16:27.383 - API rate: AUD -> RUB = 51,4089192998
+2025-07-23 22:16:27.383 - API rate: AUD -> USD = 0,6555399005
+2025-07-23 22:16:27.384 - API returned 11 real rates for AUD: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:27.384 - Final rates for AUD: 11 currencies: AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:27.385 - Saved 6 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:32.522 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:32.523 - GetExchangeRate called: EUR -> EUR
+2025-07-23 22:16:32.523 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:16:32.523 - Exchange rate EUR to EUR: 1
+2025-07-23 22:16:32.524 - Conversion result: 1 * 1 = 1
+2025-07-23 22:16:32.524 - FINAL CONVERSION: 1 EUR = 1 EUR
+2025-07-23 22:16:32.525 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:32.525 - GetExchangeRate called: EUR -> USD
+2025-07-23 22:16:32.525 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:16:32.526 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:32.526 - Direct rate found: EUR -> USD = 1,1738878491
+2025-07-23 22:16:32.526 - FINAL RESULT: GetExchangeRate(EUR -> USD) returning 1,1738878491
+2025-07-23 22:16:32.526 - Exchange rate EUR to USD: 1,1738878491
+2025-07-23 22:16:32.526 - Conversion result: 1 * 1,1738878491 = 1,1738878491
+2025-07-23 22:16:32.526 - FINAL CONVERSION: 1 EUR = 1,1738878491 USD
+2025-07-23 22:16:34.505 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:34.506 - GetExchangeRate called: USD -> USD
+2025-07-23 22:16:34.506 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:16:34.506 - Exchange rate USD to USD: 1
+2025-07-23 22:16:34.506 - Conversion result: 1 * 1 = 1
+2025-07-23 22:16:34.506 - FINAL CONVERSION: 1 USD = 1 USD
+2025-07-23 22:16:34.507 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:34.507 - GetExchangeRate called: USD -> EUR
+2025-07-23 22:16:34.507 - Cache contains 6 base currencies: USD, EUR, GBP, JPY, CAD, AUD
+2025-07-23 22:16:34.507 - Found rates for USD, contains 11 currencies: USD, AUD, CAD, CHF, CNY, EUR, GBP, IDR, INR, JPY, RUB
+2025-07-23 22:16:34.508 - Direct rate found: USD -> EUR = 0,8518701346
+2025-07-23 22:16:34.508 - FINAL RESULT: GetExchangeRate(USD -> EUR) returning 0,8518701346
+2025-07-23 22:16:34.508 - Exchange rate USD to EUR: 0,8518701346
+2025-07-23 22:16:34.508 - Conversion result: 1 * 0,8518701346 = 0,8518701346
+2025-07-23 22:16:34.509 - FINAL CONVERSION: 1 USD = 0,8518701346 EUR
+2025-07-23 22:16:36.336 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:36.336 - Fetching rates from API for IDR
+2025-07-23 22:16:36.381 - API Response received: 196 characters
+2025-07-23 22:16:36.381 - API rate: IDR -> AUD = 0,0000936614
+2025-07-23 22:16:36.381 - API rate: IDR -> CAD = 0,0000835128
+2025-07-23 22:16:36.382 - API rate: IDR -> CHF = 0,0000487322
+2025-07-23 22:16:36.382 - API rate: IDR -> CNY = 0,0004403609
+2025-07-23 22:16:36.382 - API rate: IDR -> EUR = 0,0000523038
+2025-07-23 22:16:36.382 - API rate: IDR -> GBP = 0,0000454075
+2025-07-23 22:16:36.382 - API rate: IDR -> IDR = 1
+2025-07-23 22:16:36.382 - API rate: IDR -> INR = 0,0052953518
+2025-07-23 22:16:36.382 - API rate: IDR -> JPY = 0,0090128916
+2025-07-23 22:16:36.382 - API rate: IDR -> RUB = 0,0048150333
+2025-07-23 22:16:36.383 - API rate: IDR -> USD = 0,0000613988
+2025-07-23 22:16:36.383 - API returned 11 real rates for IDR: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:16:36.383 - Final rates for IDR: 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:16:36.384 - Saved 7 base currencies to exchange_rates.json with full precision
+2025-07-23 22:16:36.385 - GetExchangeRate called: IDR -> EUR
+2025-07-23 22:16:36.385 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:16:36.385 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:16:36.385 - Direct rate found: IDR -> EUR = 0,0000523038
+2025-07-23 22:16:36.386 - FINAL RESULT: GetExchangeRate(IDR -> EUR) returning 0,0000523038
+2025-07-23 22:16:36.386 - Exchange rate IDR to EUR: 0,0000523038
+2025-07-23 22:16:36.386 - Conversion result: 1 * 0,0000523038 = 0,0000523038
+2025-07-23 22:16:36.386 - FINAL CONVERSION: 1 IDR = 0,0000523038 EUR
+2025-07-23 22:16:40.920 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:40.920 - GetExchangeRate called: IDR -> USD
+2025-07-23 22:16:40.920 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:16:40.921 - Found rates for IDR, contains 11 currencies: IDR, AUD, CAD, CHF, CNY, EUR, GBP, INR, JPY, RUB, USD
+2025-07-23 22:16:40.921 - Direct rate found: IDR -> USD = 0,0000613988
+2025-07-23 22:16:40.921 - FINAL RESULT: GetExchangeRate(IDR -> USD) returning 0,0000613988
+2025-07-23 22:16:40.921 - Exchange rate IDR to USD: 0,0000613988
+2025-07-23 22:16:40.922 - Conversion result: 1 * 0,0000613988 = 0,0000613988
+2025-07-23 22:16:40.922 - FINAL CONVERSION: 1 IDR = 0,0000613988 USD
+2025-07-23 22:16:43.696 - ConvertAsync called - Amount: 1
+2025-07-23 22:16:43.696 - GetExchangeRate called: EUR -> USD
+2025-07-23 22:16:43.696 - Cache contains 7 base currencies: USD, EUR, GBP, JPY, CAD, AUD, IDR
+2025-07-23 22:16:43.697 - Found rates for EUR, contains 11 currencies: EUR, AUD, CAD, CHF, CNY, GBP, IDR, INR, JPY, RUB, USD
+2025-07-23 22:16:43.697 - Direct rate found: EUR -> USD = 1,1738878491
+2025-07-23 22:16:43.697 - FINAL RESULT: GetExchangeRate(EUR -> USD) returning 1,1738878491
+2025-07-23 22:16:43.697 - Exchange rate EUR to USD: 1,1738878491
+2025-07-23 22:16:43.698 - Conversion result: 1 * 1,1738878491 = 1,1738878491
+2025-07-23 22:16:43.698 - FINAL CONVERSION: 1 EUR = 1,1738878491 USD

@@ -266,6 +266,30 @@ namespace StylishCalculator.ViewModels
             OnPropertyChanged(nameof(CurrentExpression));
             OnPropertyChanged(nameof(HasError));
             OnPropertyChanged(nameof(ErrorMessage));
+            
+            // Real-time synchronization: update currency converter whenever calculator changes
+            if (IsCurrencyPanelVisible)
+            {
+                SyncCalculatorToCurrency();
+            }
+        }
+
+        /// <summary>
+        /// Synchronizes calculator value to currency converter in real-time
+        /// </summary>
+        private void SyncCalculatorToCurrency()
+        {
+            try
+            {
+                if (!_calculator.HasError && decimal.TryParse(_calculator.CurrentInput, out decimal amount))
+                {
+                    _currencyVM.Amount = amount;
+                }
+            }
+            catch (Exception)
+            {
+                // Ignore any errors during sync
+            }
         }
 
         #endregion

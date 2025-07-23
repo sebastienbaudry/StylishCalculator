@@ -14,10 +14,16 @@
   <!--
   <ItemGroup>
     <None Remove="Resources\calculator.ico" />
+    <None Remove="Resources\Flags\USD.svg" />
+    <None Remove="Resources\Flags\EUR.svg" />
+    <None Remove="Resources\Flags\GBP.svg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\calculator.ico" />
+    <Resource Include="Resources\Flags\USD.svg" />
+    <Resource Include="Resources\Flags\EUR.svg" />
+    <Resource Include="Resources\Flags\GBP.svg" />
   </ItemGroup>
   -->
 
